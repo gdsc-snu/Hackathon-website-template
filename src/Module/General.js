@@ -12,6 +12,7 @@
 // import ll from "./Assets/sponsorsLogos/ll.png";
 // import ACF from "./Assets/sponsorsLogos/ACF.png";
 import dummyLogo from '../components/logo-section/dummyLogo.png'
+import Dummy2 from '../components/logo-section/Dummy2.jpg'
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -160,7 +161,7 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
+      Name: "Soumyadeep Mondal",
       role: "Organizer",
       github: "https://github.com/suchetamahata",
       linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
@@ -174,8 +175,8 @@ const TeamInfo = [
       img: moon
     },
     {
-      Name: "Ryah Garcia",
-      role: "Organizer",
+      Name: "Mousumi",
+      role: " Writer..",
       github: "https://github.com/suchetamahata",
       linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: Ryah
@@ -191,8 +192,8 @@ const TeamInfo = [
       img: lyin
     },
     {
-      Name: "Zoheb",
-      role: "Organizer",
+      Name: "Piush Chandra Chandra",
+      role: "Social Media Head",
       github: "https://github.com/suchetamahata",
       linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: zoha
@@ -207,9 +208,9 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}], //Array 1
-  [{src:  dummyLogo}, {src:  dummyLogo}], //Array 2
-  [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}], //Array 3
+  [{src:  Dummy2}, {src:  dummyLogo}, {src:  Dummy2}], //Array 1
+  [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
+  [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
 
