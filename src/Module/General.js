@@ -161,22 +161,22 @@ const TeamInfo = [
     {
       Name: "Rehan",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: me
     },
     {
       Name: "Moon",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: moon
     },
     {
       Name: "Ryah Garcia",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: Ryah
     }
   ],
@@ -185,15 +185,15 @@ const TeamInfo = [
     {
       Name: "Lyanola",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: lyin
     },
     {
       Name: "Zoheb",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: zoha
     },    
   ] 

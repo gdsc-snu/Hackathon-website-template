@@ -77,14 +77,14 @@ export default class NAVBAR extends React.Component {
   }
 }
 
-function Projects() {
-  return <h2>Projects here</h2>;
-}
+// function Projects() {
+//   return <h2>Projects here</h2>;
+// }
 
-function Contact() {
-  return <h2>contact info</h2>;
-}
+// function Contact() {
+//   return <h2>contact info</h2>;
+// }
 
-function Links() {
-  return <h2>Home</h2>;
-}
+// function Links() {
+//   return <h2>Home</h2>;
+// }

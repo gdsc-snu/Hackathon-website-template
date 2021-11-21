@@ -22,7 +22,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
-  panels
+  // panels
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -62,7 +62,7 @@ function TeamMembers(props) {
     <Row className="members">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={4}>
-          <Member name={s.Name} role={s.role} img={s.img} />
+          <Member name={s.Name} role={s.role} img={s.img} linkedin={s.linkedin} github={s.github} />
         </Col>
       ))}
     </Row>
@@ -96,7 +96,7 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              <img src={TOP_SECTION.IMG_SRC} />
+              <img alt='top' src={TOP_SECTION.IMG_SRC} />
             </Col>
           </Row>
 

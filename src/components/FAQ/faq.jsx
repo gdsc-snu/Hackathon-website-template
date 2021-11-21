@@ -31,7 +31,8 @@ class Panel extends React.Component {
     };
 
     return (
-      <div className="panel" role="tabpanel" aria-expanded={isActive}>
+      // eslint-disable-next-line
+      <div className="panel" role="tabpanel" aria-expanded={isActive} >
         <button className="panel__label" role="tab" onClick={activateTab}>
           {label}
         </button>
