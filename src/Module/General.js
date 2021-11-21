@@ -49,9 +49,9 @@ const SOCIALS = {
   discord: "https://discord.com/invite/c5fEPAsjcg",
   linkedin: "https://www.linkedin.com/company/gdsc-snu/",
   twitter: "https://twitter.com/gdscsnu",
-  devpost: "https://limbo-hacks-12968.devpost.com/", //do we have?
-  email: "mailto:hello@limbohacks.tech",            // whose mail to provide?
-  mail: "hello@limbohacks.tech"
+  devpost: "https://#", //do we have? 
+  email: "google.dsc@snuniv.ac.in",            // whose mail to provide?
+  mail: "google.dsc@snuniv.ac.in"
 };
 
 const MIDDLE_SECTION = {
@@ -224,7 +224,7 @@ const frequentlyAskedQuestions  = [
         'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
       {
         label: "Who can attend?",
-        content: "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content: "Dec Hacks is open to all undergraduate, high school students and middle school students from all schools."
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -242,7 +242,7 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
+        content: "Reach us directly at (google.dsc@snuniv.ac.in) we would happy to help you."
       }
       ,
       {
@@ -252,7 +252,7 @@ const frequentlyAskedQuestions  = [
       ,
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Limbo Hacks swag!."
+        content: "Yes! Participants will recieveing Dec Hacks swag!."
       }
     ]
   ],

@@ -16,7 +16,7 @@ const schedulerData = [
   {
     startDate: "2021-11-20T12:30",
     endDate: "2021-11-20T13:30",
-    title: "Intro to Flutter with LimboHacks 🚗 🚗"
+    title: "Intro to Flutter with DecHacks 🚗 🚗"
   },
   {
     startDate: "2021-11-20T14:00",
