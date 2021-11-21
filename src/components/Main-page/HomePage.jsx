@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
-import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
-import {Prizeinfo} from "../../Module/General";
+import { PrizeHeading} from "../prize tracks/prizes.jsx";
+// import {Prizeinfo} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
@@ -44,17 +44,17 @@ function SponsorGroup(props) {
 
 // Prize group
 
-function PrizeGroup(props) {
-  return (
-    <Row>
-      {props.map(s => (
-        <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
-        </Col>
-      ))}
-    </Row>
-  );
-}
+// function PrizeGroup(props) {
+//   return (
+//     <Row>
+//       {props.map(s => (
+//         <Col className="" sm={12} lg={4} md={6}>
+//           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+//         </Col>
+//       ))}
+//     </Row>
+//   );
+// }
 
 // Prize group ending
 function TeamMembers(props) {
@@ -127,7 +127,8 @@ export default function HomePage(props) {
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
           <PrizeHeading type="Prize section" />
-          {Prizeinfo.map(PrizeGroup)}
+          {/* {Prizeinfo.map(PrizeGroup)}  commented by sucheta*/} 
+          <h2>coming soon</h2>
         </Row>
         {/* ********Prizes ending here ***** */}
 

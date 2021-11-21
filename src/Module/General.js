@@ -1,16 +1,17 @@
-// Importing all sponsors logos from Assets
-import taskade from "./Assets/sponsorsLogos/taskade.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-import qoom from "./Assets/sponsorsLogos/qoom.svg";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
+// // Importing all sponsors logos from Assets
+// import taskade from "./Assets/sponsorsLogos/taskade.png";
+// import Replit from "./Assets/sponsorsLogos/replit.png";
+// import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
+// import echoAR from "./Assets/sponsorsLogos/echoAR.png";
+// import cfc from "./Assets/sponsorsLogos/cfc.png";
+// import pass from "./Assets/sponsorsLogos/1pass.png";
+// import glimpse from "./Assets/sponsorsLogos/glimpse.png";
+// import qoom from "./Assets/sponsorsLogos/qoom.svg";
+// import sublime from "./Assets/sponsorsLogos/sublime.png";
+// import egg from "./Assets/sponsorsLogos/egg.png";
+// import ll from "./Assets/sponsorsLogos/ll.png";
+// import ACF from "./Assets/sponsorsLogos/ACF.png";
+import dummyLogo from '../components/logo-section/dummyLogo.png'
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -32,7 +33,7 @@ import zoha from "./Assets/teami/zoha.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
-  TITLE: "Join DecHacks SNU",
+  TITLE: "Join DecHacks",
   Typed_effect: ["4 days of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us from 17th Dec to 20th Dec with over 300 students from across the nation for 4 days of creation, innovation, & fun.",
@@ -206,10 +207,10 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}], //Array 1
+  [{src:  dummyLogo}, {src:  dummyLogo}], //Array 2
+  [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}], //Array 3
+  // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
 
 /** Instructions
