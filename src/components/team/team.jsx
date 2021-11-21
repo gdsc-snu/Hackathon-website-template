@@ -21,10 +21,10 @@ function Member(props) {
       <div className="members-link">
         <h3>{props.name}</h3>
         <p>{props.role}</p>
-        <a>
+        <a href={`${props.github}`} target='_blank' rel="noreferrer" >
           <i class="fab fa-2x fa-github"></i>
         </a>
-        <a>
+        <a href={`${props.linkedin}`} target='_blank' rel="noreferrer">
           <i class="fab fa-2x fa-linkedin"></i>
         </a>
       </div>
