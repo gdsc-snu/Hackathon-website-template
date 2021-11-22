@@ -21,9 +21,9 @@ import Dummy2 from '../components/logo-section/Dummy2.jpg'
 
 // Importing all Team members images  from Assets
 import me from "./Assets/teami/me.png";
-import moon from "./Assets/teami/moon.png";
-import Ryah from "./Assets/teami/Ryah.jpg";
-import lyin from "./Assets/teami/lyin.jpg";
+// import moon from "./Assets/teami/moon.png";
+// import Ryah from "./Assets/teami/Ryah.jpg";
+// import lyin from "./Assets/teami/lyin.jpg";
 import zoha from "./Assets/teami/zoha.png";
 
 /** Put all your Team member image inside folder `Team Images`
