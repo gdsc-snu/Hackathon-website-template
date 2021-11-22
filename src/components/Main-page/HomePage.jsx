@@ -12,7 +12,7 @@ import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
-import {Member, JoinTeam} from "../team/team.jsx";
+import {Member} from "../team/team.jsx";
 import pattern from "./pattern4.png";
 import Media from "../media/media.jsx";
 
@@ -21,7 +21,8 @@ import {
   TeamInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
-  FOOTER,
+  //FOOTER,
+  JudgeInfo,
   // panels
 } from "../../Module/General";
 
@@ -150,8 +151,10 @@ export default function HomePage(props) {
 
         {/* ********Team here ***** */}
         <h1>Our Team</h1>
-        {FOOTER.JOIN_TEAM.required && <JoinTeam />}
+        {/* {FOOTER.JOIN_TEAM.required && <JoinTeam />} */}
         {TeamInfo.map(TeamMembers)}
+        <h1>Our Judges</h1>
+        {JudgeInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />
