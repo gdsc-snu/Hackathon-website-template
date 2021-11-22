@@ -1,6 +1,6 @@
 {
-  "homepage": "https://limbo-hacks.github.io/Hackathon-website-template/",
-  "name": "hackathon-website-template",
+  "homepage": "https://gdsc-snu.github.io/dechack/",
+  "name": "dechack",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
