@@ -5,7 +5,7 @@ import Dis from "./icons8-discord.svg";
 import Linked from "./icons8-linkedin-2.svg";
 import Mail from "./icons8-mail.svg";
 // import DevPost from "./icons8-dev-post.svg";
-import facebookIcon from './facebookIcon.png'
+import facebookIcon from "./icons8-facebook.svg";
 import PrivacyPolicy from "./Privacy policy.pdf";
 // import TermsOfUse from "./Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
