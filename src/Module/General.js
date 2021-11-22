@@ -35,15 +35,16 @@ import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
   TITLE: "Join DecHacks",
-  Typed_effect: ["4 days of creation", "Win awesome prizes"],
+  Typed_effect: ["4 days of creation", "Win awesome prizes", "Get Mentored, Get Going"],
   SHORT_DESCRIPTION:
-    "Join us from 17th Dec to 20th Dec with over 300 students from across the nation for 4 days of creation, innovation, & fun.",
+    "Join us from 17th Dec to 20th Dec and kick-start your coding journey with creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "https://discord.com/invite/c5fEPAsjcg",
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    // "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    ""
 };
 
 const SOCIALS = {
@@ -52,8 +53,9 @@ const SOCIALS = {
   linkedin: "https://www.linkedin.com/company/gdsc-snu/",
   twitter: "https://twitter.com/gdscsnu",
   devpost: "https://#", //do we have? 
-  email: "google.dsc@snuniv.ac.in",            // whose mail to provide?
-  mail: "google.dsc@snuniv.ac.in"
+  email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=google.dsc@snuniv.ac.in",            // whose mail to provide?
+  mail: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=google.dsc@snuniv.ac.in",
+  facebook: 'https://www.facebook.com/gdscsnu'
 };
 
 const MIDDLE_SECTION = {
@@ -75,7 +77,7 @@ const FOOTER = {
   },
   Privacy_policy: {
     required: true,
-    src: ""
+    src: "https://developers.google.com/community-guidelines"
   },
   Terms_of_use: {
     required: true,
@@ -200,6 +202,49 @@ const TeamInfo = [
     },    
   ] 
 ];
+const JudgeInfo = [
+  [
+    //Array 1
+    {
+      Name: "Mousumi Bhattacharya",
+      role: "Organizer",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: me
+    },
+    {
+      Name: "Moon",
+      role: "Organizer",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: moon
+    },
+    {
+      Name: "Mousumi",
+      role: " Writer..",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: Ryah
+    }
+  ],
+  [
+    //Array 2
+    {
+      Name: "Lyanola",
+      role: "Organizer",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: lyin
+    },
+    {
+      Name: "Piush Chandra Chandra",
+      role: "Social Media Head",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: zoha
+    },    
+  ] 
+];
 
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
@@ -210,7 +255,7 @@ const TeamInfo = [
 const sponsorLogos = [
   [{src:  Dummy2}, {src:  dummyLogo}, {src:  Dummy2}], //Array 1
   [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
-  [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
+  // [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
 
@@ -223,10 +268,10 @@ const frequentlyAskedQuestions  = [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+        'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content: "Dec Hacks is open to all students from Sister Nivedita University."
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -234,27 +279,27 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "How team formation works?",
-        content: "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        content: "You can form team with 3 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
       }
     ],
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        content: "All you need is to join our official Discord, we will guide you through everything there. More details about registration will be shared soon."
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (google.dsc@snuniv.ac.in) we would happy to help you."
+        content: "Reach us directly at (google.dsc@snuniv.ac.in) or our official Discord channel we would be happy to help you."
       }
       ,
       {
-        label: "Can i volunteer?",
-        content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
+        label: "Can I participate Solo?",
+        content: "Yes we are actively looking for solo participants, we will be glad to have you."
       }
       ,
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Dec Hacks swag!."
+        content: "Yes! Participants will recieveing DecHacks swag!."
       }
     ]
   ],
@@ -269,5 +314,6 @@ export {
   Prizeinfo,
   sponsorLogos,
   TeamInfo,
-  frequentlyAskedQuestions
+  frequentlyAskedQuestions,
+  JudgeInfo
 };

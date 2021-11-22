@@ -4,12 +4,13 @@ import Insta from "./icons8-instagram.svg";
 import Dis from "./icons8-discord.svg";
 import Linked from "./icons8-linkedin-2.svg";
 import Mail from "./icons8-mail.svg";
-import DevPost from "./icons8-dev-post.svg";
+// import DevPost from "./icons8-dev-post.svg";
+import facebookIcon from './facebookIcon.png'
 import PrivacyPolicy from "./Privacy policy.pdf";
-import TermsOfUse from "./Terms of use.pdf";
+// import TermsOfUse from "./Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
-import {Btn} from "../Top-division-components/Top-division-components.jsx";
-import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
+// import {Btn} from "../Top-division-components/Top-division-components.jsx";
+import {SOCIALS, FOOTER} from "../../Module/General";
 
 function GithubTemplate(){
 
@@ -68,12 +69,12 @@ export default function Footer() {
             </a>
           </div>
           <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              <img src={DevPost} alt="" />
+            <a   rel="noreferrer" target="_blank" href={SOCIALS.facebook}>
+              <img className="facebook " src={facebookIcon} alt="" />
             </a>
           </div>
         </div>
-        <div className="Register_a">
+        {/* <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
             <Btn type="Register" overlay="Fill the form" />
           </a>
@@ -82,7 +83,7 @@ export default function Footer() {
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
           )}
-        </div>
+        </div> */}
         <div className="footer_info">
           <p>
             Contact us{" "}
@@ -98,10 +99,10 @@ export default function Footer() {
               target="blank"
               className="privacy-policy"
             >
-              <p>Privacy Policy</p>
+              <p>Community Guidelines</p>
             </a>
           )}
-          {FOOTER.Terms_of_use.required && (
+          {/* {FOOTER.Terms_of_use.required && (
             <a
               href={TermsOfUse}
               download
@@ -110,8 +111,8 @@ export default function Footer() {
             >
               <p>Terms of Use</p>
             </a>
-          )}
-          <p>Made with ❤️</p>
+          )} */}
+          <p>Made with ❤️ OG website by Limbo Hacks</p>
 
         </div>
       {template &&<GithubTemplate/>}
