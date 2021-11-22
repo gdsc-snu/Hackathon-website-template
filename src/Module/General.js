@@ -53,8 +53,8 @@ const SOCIALS = {
   linkedin: "https://www.linkedin.com/company/gdsc-snu/",
   twitter: "https://twitter.com/gdscsnu",
   devpost: "https://#", //do we have? 
-  email: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=google.dsc@snuniv.ac.in",            // whose mail to provide?
-  mail: "https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=google.dsc@snuniv.ac.in",
+  email: "mailto:google.dsc@snuniv.ac.in",            // whose mail to provide?
+  mail: "google.dsc@snuniv.ac.in",
   facebook: 'https://www.facebook.com/gdscsnu'
 };
 
