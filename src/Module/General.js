@@ -163,87 +163,53 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Soumyadeep Mondal",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      Name: "Soumyadip Mondal",
+      role: "Lead, Google DSC SNU",
+      github: "https://github.com/unsuitable001",
+      linkedin: "https://www.linkedin.com/in/unsuitable001/",
       img: me
     },
     {
-      Name: "Moon",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: moon
-    },
-    {
-      Name: "Mousumi",
-      role: " Writer..",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: lyin
+      Name: "Tamim Iqbal",
+      role: "Graphics Team Lead, Google DSC SNU",
+      github: "https://github.com/#",
+      linkedin: "https://www.linkedin.com/in/#",
+      img: me
     },
     {
       Name: "Piush Chandra Chandra",
-      role: "Social Media Head",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
-    },    
-  ] 
+      role: "Social Media Lead, Google DSC SNU",
+      github: "https://github.com/#",
+      linkedin: "https://www.linkedin.com/in/#",
+      img: me
+    }
+  ]
 ];
 const JudgeInfo = [
   [
     //Array 1
     {
-      Name: "Mousumi Bhattacharya",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: me
-    },
-    {
-      Name: "Moon",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: moon
-    },
-    {
-      Name: "Mousumi",
-      role: " Writer..",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: lyin
-    },
-    {
-      Name: "Piush Chandra Chandra",
-      role: "Social Media Head",
+      Name: "Judge 1",
+      role: "Judge, Mentor (Web)",
       github: "https://github.com/suchetamahata",
       linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
       img: zoha
-    },    
-  ] 
+    },
+    {
+      Name: "Judge 2",
+      role: "Judge, Mentor (AI/ML)",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: zoha
+    },
+    {
+      Name: "Judge 3",
+      role: "Judge, Mentor (UI/UX)",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
+      img: zoha
+    }
+  ]
 ];
 
 /** Instructions
