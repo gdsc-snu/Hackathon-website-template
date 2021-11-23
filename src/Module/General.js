@@ -213,7 +213,7 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src:  couvete, link :'https://cuvette.tech/'}, {src:  dummyLogo, link:'sponsorship_gdscsnu.pdf'}], //Array 1
+  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src:  couvete, link :'https://cuvette.tech/'}, {src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf'}], //Array 1
   // [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
   // [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
