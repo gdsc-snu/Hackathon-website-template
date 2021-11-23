@@ -1,19 +1,7 @@
 // // Importing all sponsors logos from Assets
-// import taskade from "./Assets/sponsorsLogos/taskade.png";
-// import Replit from "./Assets/sponsorsLogos/replit.png";
-// import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-// import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-// import cfc from "./Assets/sponsorsLogos/cfc.png";
-// import pass from "./Assets/sponsorsLogos/1pass.png";
-// import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-// import qoom from "./Assets/sponsorsLogos/qoom.svg";
-// import sublime from "./Assets/sponsorsLogos/sublime.png";
-// import egg from "./Assets/sponsorsLogos/egg.png";
-// import ll from "./Assets/sponsorsLogos/ll.png";
-// import ACF from "./Assets/sponsorsLogos/ACF.png";
-import dummyLogo from '../components/logo-section/dummyLogo.png'
-import Dummy2 from '../components/logo-section/Dummy2.jpg'
-
+import GMS from './../components/media/GMS.png'
+import couvete from './../components/media/couvete.png'
+import dummyLogo from './../components/logo-section/dummyLogo.png'
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -21,9 +9,7 @@ import Dummy2 from '../components/logo-section/Dummy2.jpg'
 
 // Importing all Team members images  from Assets
 import me from "./Assets/teami/me.png";
-// import moon from "./Assets/teami/moon.png";
-// import Ryah from "./Assets/teami/Ryah.jpg";
-// import lyin from "./Assets/teami/lyin.jpg";
+import sucheta from './../components/Avatars/sucheta.png'
 import zoha from "./Assets/teami/zoha.png";
 
 /** Put all your Team member image inside folder `Team Images`
@@ -182,7 +168,15 @@ const TeamInfo = [
       github: "https://github.com/#",
       linkedin: "https://www.linkedin.com/in/#",
       img: me
+    },
+    {
+      Name: "Sucheta Mahata",
+      role: "Web Dev, GDSC SNU (non-organising)",
+      github: "https://github.com/suchetamahata",
+      linkedin: "https://www.linkedin.com/in/sucheta-mahata",
+      img: sucheta
     }
+
   ]
 ];
 const JudgeInfo = [
@@ -219,8 +213,8 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [{src:  Dummy2}, {src:  dummyLogo}, {src:  Dummy2}], //Array 1
-  [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
+  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src:  couvete, link :'https://cuvette.tech/'}, {src:  dummyLogo, link:'sponsorship_gdscsnu.pdf'}], //Array 1
+  // [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
   // [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
