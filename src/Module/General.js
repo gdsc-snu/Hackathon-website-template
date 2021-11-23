@@ -37,7 +37,7 @@ const TOP_SECTION = {
   TITLE: "Join DecHacks",
   Typed_effect: ["4 days of creation", "Win awesome prizes", "Get Mentored, Get Going"],
   SHORT_DESCRIPTION:
-    "Join us from 17th Dec to 20th Dec and kick-start your coding journey with creation, innovation, & fun.",
+    "Join us from 15th Dec to 18th Dec and kick-start your coding journey with creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "https://discord.com/invite/c5fEPAsjcg",
   JUDGES_FORM_LINK:
