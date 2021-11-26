@@ -25,18 +25,18 @@ button {
   background: linear-gradient(90deg, #8785fc 0%, #FBC7D4 100%);
 }
 
-.join_disco i {
-  margin-left: 2rem;
-}
+/* .join_disco i {
+} */
 
 .join_dis {
   margin-bottom: 29px;
-  margin-top: 19px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .register {
   width: 25rem;
-  margin-left: 0rem;
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
 }
@@ -51,13 +51,9 @@ p {
   line-height: 1.6;
   font-weight: 300;
 }
-.position{
-  display: flex;
-  justify-content: space-between;
-}
 .Myinfo {
   text-align: left;
-  margin-left: 10vh;
+  margin-left: 15vh;
 }
 
 .Myinfo p {
