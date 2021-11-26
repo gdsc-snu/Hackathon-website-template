@@ -2,6 +2,14 @@
 import GMS from './../components/media/GMS.png'
 import couvete from './../components/media/couvete.png'
 import dummyLogo from './../components/logo-section/dummyLogo.png'
+import Devfolio from './../components/logo-section/Devfolio.png'
+import Polygon from './../components/logo-section/Polygon.png'
+import Tezos from './../components/logo-section/Tezos.png'
+import Celo from './../components/logo-section/Celo.svg'
+import Filecoin from './../components/logo-section/Filecoin.png'
+import piush from './../components/logo-section/piushAvatar.png'
+import tamim from './../components/logo-section/tamimAvatar.png'
+
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -160,14 +168,14 @@ const TeamInfo = [
       role: "Graphics Team Lead, Google DSC SNU",
       github: "https://github.com/#",
       linkedin: "https://www.linkedin.com/in/#",
-      img: me
+      img: tamim
     },
     {
       Name: "Piush Chandra Chandra",
       role: "Social Media Lead, Google DSC SNU",
       github: "https://github.com/#",
       linkedin: "https://www.linkedin.com/in/#",
-      img: me
+      img: piush
     },
     {
       Name: "Sucheta Mahata",
@@ -213,9 +221,9 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src:  couvete, link :'https://cuvette.tech/'}, {src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf'}], //Array 1
-  // [{src:  dummyLogo},{src:  Dummy2}, {src:  dummyLogo}], //Array 2
-  // [{src:  Dummy2}, {src:  dummyLogo}, {src: Dummy2}], //Array 3
+  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src: Devfolio, link:'https://devfolio.co/'}, {src:  couvete, link :'https://cuvette.tech/'}], //Array 1
+  [{ src: Celo, link:'https://celo.org/'}, {src: Polygon, link:'https://polygon.technology/'} ], //Array 2
+   [ {src: Filecoin, link: 'https://twitter.com/Filecoin'}, { src: Tezos, link:'https://tezos.com/'},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' } ], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
 
