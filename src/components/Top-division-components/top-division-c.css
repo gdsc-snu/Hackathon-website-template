@@ -26,7 +26,7 @@ button {
 }
 
 .join_disco i {
-  margin-right: 10px;
+  margin-left: 2rem;
 }
 
 .join_dis {
@@ -36,7 +36,7 @@ button {
 
 .register {
   width: 25rem;
-  margin-left: 9rem;
+  margin-left: 0rem;
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
 }
@@ -51,7 +51,10 @@ p {
   line-height: 1.6;
   font-weight: 300;
 }
-
+.position{
+  display: flex;
+  justify-content: space-between;
+}
 .Myinfo {
   text-align: left;
   margin-left: 10vh;

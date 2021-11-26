@@ -221,8 +221,8 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [{src:  GMS , link: 'https://givemycertificate.com/'}, {src: Devfolio, link:'https://devfolio.co/'}, {src:  couvete, link :'https://cuvette.tech/'}], //Array 1
-  [{ src: Celo, link:'https://celo.org/'}, {src: Polygon, link:'https://polygon.technology/'} ], //Array 2
+  [ {src: Devfolio, link:'https://devfolio.co/'}, {src: Polygon, link:'https://polygon.technology/'}, {src:  couvete, link :'https://cuvette.tech/'}], //Array 1
+  [{ src: Celo, link:'https://celo.org/'}, {src:  GMS , link: 'https://givemycertificate.com/'} ], //Array 2
    [ {src: Filecoin, link: 'https://twitter.com/Filecoin'}, { src: Tezos, link:'https://tezos.com/'},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' } ], //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
 ];
