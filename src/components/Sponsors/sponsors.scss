@@ -8,7 +8,25 @@
 .Sponsor img{
     width: 20rem;
     display: inline-block;
-    margin: 0;
+}
+.red{
+  background: radial-gradient( #f1745d 0%, #fcfbfb 70%);
+  border-radius: 50%;
+  width: 25rem;
+  height: 10rem;
+}
+.seagreen{
+  background: radial-gradient( #63f8df 0%, #fcfbfb 70% );
+  border-radius: 50%;
+  width: 25rem;
+  height: 10rem;
+}
+.seagreen2{
+  background: radial-gradient( #63f8df 0%, #fcfbfb 70%);
+  border-radius: 50%;
+  width: 25rem;
+  height: 35rem;
+  margin: 0rem;
 }
 
 .shead{
@@ -26,10 +44,10 @@
   .shead{
     margin-top:0;
   }
-  .Sponsor img{
+//   .Sponsor img{
 
-  margin-bottom: 3rem;
-}
+//   margin-bottom: 3rem;
+// }
 }
   .Sponsor img{
  

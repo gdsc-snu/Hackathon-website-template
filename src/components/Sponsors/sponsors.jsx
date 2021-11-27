@@ -10,7 +10,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <a href={props.link} target="__blank">
-      <div className="Sponsor ">
+      <div className={ `Sponsor ${ props.color }`}>
         <img src={props.srcx} alt="Dechacks"></img>
       </div>
     </a>

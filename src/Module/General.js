@@ -221,10 +221,10 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [ {src: Devfolio, link:'https://devfolio.co/'}, {src: Polygon, link:'https://polygon.technology/'}, {src:  couvete, link :'https://cuvette.tech/'}], //Array 1
-  [{ src: Celo, link:'https://celo.org/'}, {src:  GMS , link: 'https://givemycertificate.com/'} ], //Array 2
-   [ {src: Filecoin, link: 'https://twitter.com/Filecoin'}, { src: Tezos, link:'https://tezos.com/'},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' } ], //Array 3
-  // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo}] //Array 4
+  [ {src: Devfolio, link:'https://devfolio.co/', color: 'red'}, {src: Polygon, link:'https://polygon.technology/', color: 'red'}, {src:  couvete, link :'https://cuvette.tech/', color: 'seagreen2'},{ src: Celo, link:'https://celo.org/', color: 'seagreen'}, //Array 1
+  {src:  GMS , link: 'https://givemycertificate.com/', color: 'seagreen2'},  {src: Filecoin, link: 'https://twitter.com/Filecoin', color: 'seagreen'} , //Array 2
+    { src: Tezos, link:'https://tezos.com/', color: 'seagreen'} ], //Array 3
+  // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' }] //Array 4
 ];
 
 /** Instructions
