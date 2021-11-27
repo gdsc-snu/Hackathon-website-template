@@ -8,7 +8,7 @@ import Tezos from './../components/logo-section/Tezos.png'
 import Celo from './../components/logo-section/Celo.svg'
 import Filecoin from './../components/logo-section/Filecoin.png'
 import piush from './../components/logo-section/piushAvatar.png'
-import tamim from './../components/logo-section/tamimAvatar.png'
+import tamim from './../components/logo-section/tamim.png'
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -16,7 +16,7 @@ import tamim from './../components/logo-section/tamimAvatar.png'
  */
 
 // Importing all Team members images  from Assets
-import me from "./Assets/teami/me.png";
+import soumyadeep from "./../components/logo-section/soumyadeep.svg";
 import sucheta from './../components/Avatars/sucheta.png'
 import zoha from "./Assets/teami/zoha.png";
 
@@ -161,7 +161,7 @@ const TeamInfo = [
       role: "Lead, Google DSC SNU",
       github: "https://github.com/unsuitable001",
       linkedin: "https://www.linkedin.com/in/unsuitable001/",
-      img: me
+      img: soumyadeep
     },
     {
       Name: "Tamim Iqbal",
@@ -239,7 +239,7 @@ const frequentlyAskedQuestions  = [
         'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all students from Sister Nivedita University."
+        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students."
       },
       {
         label: "I am a first time hacker, what should I do?",
