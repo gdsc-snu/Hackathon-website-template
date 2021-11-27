@@ -1,7 +1,7 @@
 // // Importing all sponsors logos from Assets
 import GMS from './../components/media/GMS.png'
 import couvete from './../components/media/couvete.png'
-import dummyLogo from './../components/logo-section/dummyLogo.png'
+// import dummyLogo from './../components/logo-section/dummyLogo.png'
 import Devfolio from './../components/logo-section/Devfolio.png'
 import Polygon from './../components/logo-section/Polygon.png'
 import Tezos from './../components/logo-section/Tezos.png'
