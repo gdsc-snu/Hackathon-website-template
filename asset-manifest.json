@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dechack/static/css/main.7104fd05.chunk.css",
-    "main.js": "/dechack/static/js/main.188893fd.chunk.js",
-    "main.js.map": "/dechack/static/js/main.188893fd.chunk.js.map",
+    "main.js": "/dechack/static/js/main.64856ff0.chunk.js",
+    "main.js.map": "/dechack/static/js/main.64856ff0.chunk.js.map",
     "runtime-main.js": "/dechack/static/js/runtime-main.552edbbd.js",
     "runtime-main.js.map": "/dechack/static/js/runtime-main.552edbbd.js.map",
     "static/js/2.581d83a4.chunk.js": "/dechack/static/js/2.581d83a4.chunk.js",
@@ -23,17 +23,17 @@
     "static/media/icons8-mail.650ff70b.svg": "/dechack/static/media/icons8-mail.650ff70b.svg",
     "static/media/icons8-twitter.0521e950.svg": "/dechack/static/media/icons8-twitter.0521e950.svg",
     "static/media/loader.ed450620.gif": "/dechack/static/media/loader.ed450620.gif",
-    "static/media/me.3abc9aa1.png": "/dechack/static/media/me.3abc9aa1.png",
     "static/media/pattern4.b2e30e46.png": "/dechack/static/media/pattern4.b2e30e46.png",
     "static/media/piushAvatar.3186fb75.png": "/dechack/static/media/piushAvatar.3186fb75.png",
+    "static/media/soumyadeep.ab5a594e.svg": "/dechack/static/media/soumyadeep.ab5a594e.svg",
     "static/media/sucheta.9459b4ad.png": "/dechack/static/media/sucheta.9459b4ad.png",
-    "static/media/tamimAvatar.545924cd.png": "/dechack/static/media/tamimAvatar.545924cd.png",
+    "static/media/tamim.9c200827.png": "/dechack/static/media/tamim.9c200827.png",
     "static/media/zoha.94ad0355.png": "/dechack/static/media/zoha.94ad0355.png"
   },
   "entrypoints": [
     "static/js/runtime-main.552edbbd.js",
     "static/js/2.581d83a4.chunk.js",
     "static/css/main.7104fd05.chunk.css",
-    "static/js/main.188893fd.chunk.js"
+    "static/js/main.64856ff0.chunk.js"
   ]
 }
