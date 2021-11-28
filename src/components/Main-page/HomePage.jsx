@@ -6,9 +6,10 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import { PrizeHeading} from "../prize tracks/prizes.jsx";
-// import {Prizeinfo} from "../../Module/General";
+import {Prizeinfo, PrizeNonCoding} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+import { FirstPrize } from "../prize tracks/prizes.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
@@ -45,18 +46,28 @@ function SponsorGroup(props) {
 
 // Prize group
 
-// function PrizeGroup(props) {
-//   return (
-//     <Row>
-//       {props.map(s => (
-//         <Col className="" sm={12} lg={4} md={6}>
-//           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
-//         </Col>
-//       ))}
-//     </Row>
-//   );
-// }
-
+function PrizeGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+}
+function PrizeNCoding(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} />
+        </Col>
+      ))}
+    </Row>
+  );
+}
 // Prize group ending
 function TeamMembers(props) {
   return (
@@ -128,14 +139,13 @@ export default function HomePage(props) {
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
           <PrizeHeading type="Prize section" />
-          {/* {Prizeinfo.map(PrizeGroup)}  commented by sucheta*/} 
-          <h2>coming soon</h2>
+          {Prizeinfo.map(PrizeGroup)} 
         </Row>
         {/* ********Prizes ending here ***** */}
 
         <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
+          {PrizeNonCoding.map(PrizeNCoding)} 
         </Row>
 
         {/* ********Sponsors here ***** */}

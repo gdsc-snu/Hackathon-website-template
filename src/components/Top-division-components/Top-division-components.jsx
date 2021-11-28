@@ -54,7 +54,11 @@ function Myinfo() {
 	        class="apply-button" 
 	        data-hackathon-slug="dechack" 
 	        data-button-theme="dark-inverted"
-	        style={{height: 44, width: 312, margin: 20}}>
+	        style={{height: 44, width: 312, margin: 20, color:"white"}}>
+            {/* <Btn class="register"
+            type="Devfolio"
+            overlay="Apply with Devfolio" /> */}
+            * supposed devfolio button*
         </div>
       
         </div>
