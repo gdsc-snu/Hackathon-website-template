@@ -52,10 +52,9 @@ function Myinfo() {
         </a>
         <div 
 	        class="apply-button" 
-	        data-hackathon-slug="dechack.devfolio.co" 
-	        data-button-theme="light"
-	        style={{height: 44, width: 312, margin: 20}}>        
-        <Btn class="register" type="Devfolio " overlay="Apply with Devfolio" />
+	        data-hackathon-slug="dechack" 
+	        data-button-theme="dark-inverted"
+	        style={{height: 44, width: 312, margin: 20}}>
         </div>
       
         </div>
