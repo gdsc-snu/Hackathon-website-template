@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dechack/static/css/main.f666e2ee.chunk.css",
-    "main.js": "/dechack/static/js/main.e2fbff67.chunk.js",
-    "main.js.map": "/dechack/static/js/main.e2fbff67.chunk.js.map",
+    "main.css": "/dechack/static/css/main.080fc0af.chunk.css",
+    "main.js": "/dechack/static/js/main.cea3d876.chunk.js",
+    "main.js.map": "/dechack/static/js/main.cea3d876.chunk.js.map",
     "runtime-main.js": "/dechack/static/js/runtime-main.552edbbd.js",
     "runtime-main.js.map": "/dechack/static/js/runtime-main.552edbbd.js.map",
     "static/js/2.581d83a4.chunk.js": "/dechack/static/js/2.581d83a4.chunk.js",
     "static/js/2.581d83a4.chunk.js.map": "/dechack/static/js/2.581d83a4.chunk.js.map",
     "index.html": "/dechack/index.html",
-    "static/css/main.f666e2ee.chunk.css.map": "/dechack/static/css/main.f666e2ee.chunk.css.map",
+    "static/css/main.080fc0af.chunk.css.map": "/dechack/static/css/main.080fc0af.chunk.css.map",
     "static/js/2.581d83a4.chunk.js.LICENSE.txt": "/dechack/static/js/2.581d83a4.chunk.js.LICENSE.txt",
     "static/media/Celo.e66cc4c3.svg": "/dechack/static/media/Celo.e66cc4c3.svg",
     "static/media/GMS.95e4f97d.png": "/dechack/static/media/GMS.95e4f97d.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.552edbbd.js",
     "static/js/2.581d83a4.chunk.js",
-    "static/css/main.f666e2ee.chunk.css",
-    "static/js/main.e2fbff67.chunk.js"
+    "static/css/main.080fc0af.chunk.css",
+    "static/js/main.cea3d876.chunk.js"
   ]
 }
