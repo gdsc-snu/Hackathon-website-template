@@ -1,13 +1,12 @@
 .Sponsor{
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   transition: 0.3s;
 }
 .Sponsor:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .Sponsor img{
     width: 20rem;
-    display: inline-block;
 }
 .red{
   background: radial-gradient( #eb9681 0%, #ffffff 70%);

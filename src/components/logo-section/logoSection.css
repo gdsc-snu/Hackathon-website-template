@@ -2,16 +2,15 @@
   width: 390px;
   height: 390px;
   margin-top: 0;
-  padding: 0;
   position: relative;
   right: 130px;
 
 }
 .Logo{
-    width: 60%;
-    display: inline-block;
+    width: 130%;
+    /* display: inline-block;
     margin: 0;
-   padding: 0;
+   padding: 0; */
    position: absolute;
 }
 
