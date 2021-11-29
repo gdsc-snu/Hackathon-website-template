@@ -41,6 +41,12 @@ function Myinfo() {
     <div className="Myinfo">
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
+      <div 
+	        class="apply-button" 
+	        data-hackathon-slug="dechack" 
+	        data-button-theme="dark-inverted"
+	        style={{height: 44, width: 312, margin: 20}}>
+      </div>
       <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <Btn
@@ -50,12 +56,6 @@ function Myinfo() {
             overlay="Click the link"
           />
         </a>
-        </div>
-        <div 
-	        class="apply-button" 
-	        data-hackathon-slug="dechack" 
-	        data-button-theme="dark-inverted"
-	        style={{height: 44, width: 312, margin: 20}}>
         </div>
     </div>
   );
