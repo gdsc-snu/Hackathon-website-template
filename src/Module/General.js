@@ -97,18 +97,46 @@ const Prizeinfo = [
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Top 3 Solo or First Place (Team)",
-      content:
-        "T-shirt from Cuvette Tech and t-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo. Lifetime verifiable certificate. Surprises 🤫"
+      content1:"T-shirt from Cuvette Tech and t-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
+      content2:" Lifetime verifiable certificate.",
+      content3 :' Surprises 🤫'
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
       type: "Second & Third Place (Team)",
-      content:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo. Lifetime verifiable certificate. Surprises 🤫"
+      content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2 :"Lifetime verifiable certificate.",
+      content3 :" Surprises 🤫"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Best Android App",
-      content: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo. Chance to send your app to Google (for SNU students only). Lifetime verifiable certificate. Surprises 🤫" }
+      content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo." ,
+      content2:" Chance to send your app to Google (for SNU students only)",
+      content3: " Lifetime verifiable certificate. Surprises 🤫 "
+    },
+      {
+        icon: <i class="first fas fa-4x fa-trophy"></i>,
+        type: "Successful Submission",
+        content1: "Lifetime verifiable certificate. " 
+      },
+      {
+        icon: <i class=" second fas fa-4x fa-medal"></i>,
+        type: "Tezos",
+        content1:"₹20,000 for best Dapp built on Tezos. ",
+        content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
+      },
+      {
+        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+        type: "Celo",
+        content1: "₹20,000 for best Dapp built on Celo.  " ,
+        content2:"Continuity Support",
+      },
+      {
+        icon: <i class=" third fas fa-4x  fa-trophy"></i>,
+        type: "Filecoin        ",
+        content1: "₹20000 for best use of IPFS and/or Filecoin " 
+      },
   ]
 ];
 
@@ -118,11 +146,18 @@ const PrizeNonCoding = [
     {
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best UI/UX",
-      content:" T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo. Lifetime verifiable certificate. Surprises 🤫" },
-    {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "Successful Submission",
-      content: "Lifetime verifiable certificate. " }
+      content1:" T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2 : " Lifetime verifiable certificate.",
+      content3 : " Surprises 🤫 "
+    },
+      {
+        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+        type: "Best Ideation",
+        content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+        content2 : "  Lifetime verifiable certificate.",
+        content3 : " Surprises 🤫 "
+      },
+ 
   ]
 ]
 
@@ -218,7 +253,7 @@ const frequentlyAskedQuestions  = [
         'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students."
+        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students. 11th and 12th standard students"
       },
       {
         label: "I am a first time hacker, what should I do?",
