@@ -50,13 +50,12 @@ function Myinfo() {
             overlay="Click the link"
           />
         </a>
+        </div>
         <div 
 	        class="apply-button" 
 	        data-hackathon-slug="dechack" 
 	        data-button-theme="dark-inverted"
 	        style={{height: 44, width: 312, margin: 20}}>
-        </div>
-      
         </div>
     </div>
   );
