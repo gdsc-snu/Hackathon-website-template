@@ -7,7 +7,7 @@ import Polygon from './../components/logo-section/Polygon.png'
 import Tezos from './../components/logo-section/Tezos.png'
 import Celo from './../components/logo-section/Celo.svg'
 import Filecoin from './../components/logo-section/Filecoin.png'
-import Hoichoi from './../components/logo-section/Hoichoi.png'
+import HoichoiN from './../components/logo-section/HoichoiN.png'
 
 import piush from './../components/logo-section/piushAvatar.png'
 import tamim from './../components/logo-section/tamim.png'
@@ -253,7 +253,7 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [{ src: Hoichoi , link:'https://hoichoi.tech/', color: 'hoichoi' }]
+  [{ src: HoichoiN , link:'https://hoichoi.tech/', color: 'hoichoi' }]
 ];
 
 const sponsorLogos1 = [

@@ -1,14 +1,12 @@
 .Sponsor{
   transition: 0.3s;
-  display: flex;
-  justify-content:center;
   margin: 4rem;
 }
 .Sponsor:hover{
   transform: scale(1.2);
 }
 .hoichoi{
-  width : 75vw;
+  margin-left: 65rem;
 }
 .Sponsor img{
     width: 20rem;
@@ -65,4 +63,11 @@
   @keyframes mover {
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
+  }
+
+  @media (max-width: 1024px) {
+    .hoichoi{
+      margin-left: 0rem;
+    }
+    
   }
