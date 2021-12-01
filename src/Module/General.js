@@ -102,7 +102,7 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      icon: <i class="first fas fa-4x fa-medal"></i>,
       type: "Top 3 Solo or First Place (Team)",
       content1:"T-shirt from Cuvette and t-shirts & stickers from Devfolio, Polygon, Tezos, Filecoin & Celo",
       content2:" Lifetime verifiable certificate",
@@ -116,34 +116,33 @@ const Prizeinfo = [
       content3 :" Surprises 🤫"
     },
     {
-      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      icon: <i class=" third fas fa-4x  fa-medal"></i>,
       type: "Best Android App",
       content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo" ,
       content2:" Chance to send your app to Google (for SNU students only)",
       content3: " Lifetime verifiable certificate. Surprises 🤫 "
     },
-      {
-        icon: <i class="second fas fa-4x fa-trophy"></i>,
-        type: "Successful Submission",
-        content1: "Lifetime verifiable certificate " 
-      },
-      {
-        icon: <i class=" second fas fa-4x fa-medal"></i>,
+    {
+        icon: <i class=" second fas fa-4x fa-trophy"></i>,
         type: "Tezos",
         content1:"₹20,000 for best Dapp built on Tezos ",
         content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
-      },
-      {
-        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-        type: "Celo",
-        content1: "₹20,000 for best Dapp built on Celo  " ,
-        content2:"Continuity Support",
-      },
-      {
+    },
+    {
         icon: <i class=" third fas fa-4x  fa-trophy"></i>,
         type: "Filecoin",
         content1: "₹20000 for best use of IPFS and/or Filecoin " 
-      },
+    },{
+      icon: <i class=" first fas fa-4x fa-trophy"></i>,
+      type: "Celo",
+      content1: "₹20,000 for best Dapp built on Celo  " ,
+      content2:"Continuity Support",
+  },
+  {
+    icon: <i class="sixth fas fa-4x fa-skiing-nordic"></i>,
+    type: "Successful Submission",
+    content1: "Lifetime verifiable certificate " 
+  }
   ]
 ];
 
@@ -164,7 +163,6 @@ const PrizeNonCoding = [
         content2 : "  Lifetime verifiable certificate.",
         content3 : " Surprises 🤫 "
       },
- 
   ]
 ]
 
@@ -205,7 +203,6 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/sucheta-mahata",
       img: sucheta
     }
-
   ]
 ];
 const JudgeInfo = [
