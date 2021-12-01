@@ -26,7 +26,6 @@ import Sayan from './../components/team/Sayan.jpg'
 // Importing all Team members images  from Assets
 import soumyadeep from "./../components/logo-section/soumyadeep.svg";
 import sucheta from './../components/Avatars/sucheta.png'
-import zoha from "./Assets/teami/zoha.png";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
