@@ -28,7 +28,7 @@ function About() {
 function Myinfo() {
   React.useEffect(() => {
     const script = document.createElement('script');
-    script.src = '<https://apply.devfolio.co/v2/sdk.js>';
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
@@ -41,6 +41,12 @@ function Myinfo() {
     <div className="Myinfo">
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
+      <div 
+	        class="apply-button" 
+	        data-hackathon-slug="dechack" 
+	        data-button-theme="dark-inverted"
+	        style={{height: 44, width: 312, margin: 20}}>
+      </div>
       <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <Btn
@@ -50,17 +56,6 @@ function Myinfo() {
             overlay="Click the link"
           />
         </a>
-        <div 
-	        class="apply-button" 
-	        data-hackathon-slug="dechack" 
-	        data-button-theme="dark-inverted"
-	        style={{height: 44, width: 312, margin: 20, color:"white"}}>
-            {/* <Btn class="register"
-            type="Devfolio"
-            overlay="Apply with Devfolio" /> */}
-            * supposed devfolio button*
-        </div>
-      
         </div>
     </div>
   );
