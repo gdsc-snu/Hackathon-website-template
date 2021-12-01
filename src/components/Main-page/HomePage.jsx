@@ -5,11 +5,16 @@ import Container from "react-bootstrap/Container";
 import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
-import { PrizeHeading} from "../prize tracks/prizes.jsx";
+import {PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo, PrizeNonCoding} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
-import { FirstPrize } from "../prize tracks/prizes.jsx";
+import {
+  Sponsor,
+  SponsorsHead,
+  SponsorUS,
+  Hoichoi
+} from "../Sponsors/sponsors.jsx";
+import {FirstPrize} from "../prize tracks/prizes.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
@@ -23,7 +28,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   //FOOTER,
-  JudgeInfo,
+  JudgeInfo
   // panels
 } from "../../Module/General";
 
@@ -41,7 +46,6 @@ function SponsorGroup(props) {
     </Row>
   );
 }
-
 // javascript Map for sponsors end
 
 // Prize group
@@ -51,7 +55,13 @@ function PrizeGroup(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content1={s.content1} content2={s.content2} content3={s.content3} />
+          <FirstPrize
+            icon={s.icon}
+            type={s.type}
+            content1={s.content1}
+            content2={s.content2}
+            content3={s.content3}
+          />
         </Col>
       ))}
     </Row>
@@ -62,7 +72,13 @@ function PrizeNCoding(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content1={s.content1} content2={s.content2} content3={s.content3} />
+          <FirstPrize
+            icon={s.icon}
+            type={s.type}
+            content1={s.content1}
+            content2={s.content2}
+            content3={s.content3}
+          />
         </Col>
       ))}
     </Row>
@@ -74,29 +90,30 @@ function TeamMembers(props) {
     <Row className="members">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={4}>
-          <Member name={s.Name} role={s.role} img={s.img} linkedin={s.linkedin} github={s.github} />
+          <Member
+            name={s.Name}
+            role={s.role}
+            img={s.img}
+            linkedin={s.linkedin}
+            github={s.github}
+          />
         </Col>
       ))}
     </Row>
   );
 }
-
-
-
 
 function FrequentlyAsked(props) {
   return (
     <Row className="sf">
       {props.map(s => (
         <Col className="" sm={12} lg={6} md={6}>
-        <Accordion panels={ s }/>
+          <Accordion panels={s} />
         </Col>
       ))}
     </Row>
   );
 }
-
-
 
 export default function HomePage(props) {
   return (
@@ -108,7 +125,7 @@ export default function HomePage(props) {
               <Myinfo />
             </Col>
             <Col className="d-image" sm={12} lg={5} md={4}>
-              <img alt='top' src={TOP_SECTION.IMG_SRC} />
+              <img alt="top" src={TOP_SECTION.IMG_SRC} />
             </Col>
           </Row>
 
@@ -132,29 +149,32 @@ export default function HomePage(props) {
 
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
-        {frequentlyAskedQuestions.map(FrequentlyAsked)}
-        {/* ********Frequently asked Questions ending here ***** */}
-         </div>  
+          {frequentlyAskedQuestions.map(FrequentlyAsked)}
+          {/* ********Frequently asked Questions ending here ***** */}
+        </div>
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
           <PrizeHeading type="Prize section" />
-          {Prizeinfo.map(PrizeGroup)} 
+          {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
         <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
-          {PrizeNonCoding.map(PrizeNCoding)} 
+          {PrizeNonCoding.map(PrizeNCoding)}
         </Row>
 
         {/* ********Sponsors here ***** */}
-
         <Row className="sponsorSection">
           <SponsorsHead />
           <SponsorUS />
+          <Row className="titleSponser">
+            <Hoichoi />
+          </Row>
           {sponsorLogos.map(SponsorGroup)}
         </Row>
+
         {/* ********Sponsors ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />

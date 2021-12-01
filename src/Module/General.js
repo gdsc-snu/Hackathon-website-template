@@ -1,14 +1,15 @@
 // // Importing all sponsors logos from Assets
-import GMS from './../components/media/GMS.png'
-import couvete from './../components/media/couvete.png'
+import GMS from "./../components/media/GMS.png";
+import couvete from "./../components/media/couvete.png";
 // import dummyLogo from './../components/logo-section/dummyLogo.png'
-import Devfolio from './../components/logo-section/Devfolio.png'
-import Polygon from './../components/logo-section/Polygon.png'
-import Tezos from './../components/logo-section/Tezos.png'
-import Celo from './../components/logo-section/Celo.svg'
-import Filecoin from './../components/logo-section/Filecoin.png'
-import piush from './../components/logo-section/piushAvatar.png'
-import tamim from './../components/logo-section/tamim.png'
+import Hoichoi from "./../components/logo-section/hoichoiTech.jpeg";
+import Devfolio from "./../components/logo-section/Devfolio.png";
+import Polygon from "./../components/logo-section/Polygon.png";
+import Tezos from "./../components/logo-section/Tezos.png";
+import Celo from "./../components/logo-section/Celo.svg";
+import Filecoin from "./../components/logo-section/Filecoin.png";
+import piush from "./../components/logo-section/piushAvatar.png";
+import tamim from "./../components/logo-section/tamim.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -17,8 +18,12 @@ import tamim from './../components/logo-section/tamim.png'
 
 // Importing all Team members images  from Assets
 import soumyadeep from "./../components/logo-section/soumyadeep.svg";
-import sucheta from './../components/Avatars/sucheta.png'
-import zoha from "./Assets/teami/zoha.png";
+import sucheta from "./../components/Avatars/sucheta.png";
+// import zoha from "./Assets/teami/zoha.png";
+import Niloy from "./Assets/judges/niloySikdar";
+import Syed from "./Assets/judges/syedZiauddin";
+import Sagnik from "./Assets/judges/sagnikRoy";
+import Sayan from "./Assets/judges/sayanNath";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -29,7 +34,11 @@ import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
   TITLE: "Join DecHacks",
-  Typed_effect: ["4 days of creation", "Win awesome prizes", "Get Mentored, Get Going"],
+  Typed_effect: [
+    "4 days of creation",
+    "Win awesome prizes",
+    "Get Mentored, Get Going"
+  ],
   SHORT_DESCRIPTION:
     "Join us from 15th Dec to 18th Dec and kick-start your coding journey with creation, innovation, & fun.",
   IMG_SRC: boy,
@@ -46,10 +55,10 @@ const SOCIALS = {
   discord: "https://discord.com/invite/c5fEPAsjcg",
   linkedin: "https://www.linkedin.com/company/gdsc-snu/",
   twitter: "https://twitter.com/gdscsnu",
-  devpost: "https://#", //do we have? 
-  email: "mailto:google.dsc@snuniv.ac.in",            // whose mail to provide?
+  devpost: "https://#", //do we have?
+  email: "mailto:google.dsc@snuniv.ac.in", // whose mail to provide?
   mail: "google.dsc@snuniv.ac.in",
-  facebook: 'https://www.facebook.com/gdscsnu'
+  facebook: "https://www.facebook.com/gdscsnu"
 };
 
 const MIDDLE_SECTION = {
@@ -97,46 +106,50 @@ const Prizeinfo = [
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Top 3 Solo or First Place (Team)",
-      content1:"T-shirt from Cuvette Tech and t-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
-      content2:" Lifetime verifiable certificate.",
-      content3 :' Surprises 🤫'
+      content1:
+        "T-shirt from Cuvette Tech and t-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
+      content2: " Lifetime verifiable certificate.",
+      content3: " Surprises 🤫"
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
       type: "Second & Third Place (Team)",
-      content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
-      content2 :"Lifetime verifiable certificate.",
-      content3 :" Surprises 🤫"
+      content1:
+        "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2: "Lifetime verifiable certificate.",
+      content3: " Surprises 🤫"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Best Android App",
-      content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo." ,
-      content2:" Chance to send your app to Google (for SNU students only)",
+      content1:
+        "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2: " Chance to send your app to Google (for SNU students only)",
       content3: " Lifetime verifiable certificate. Surprises 🤫 "
     },
-      {
-        icon: <i class="first fas fa-4x fa-trophy"></i>,
-        type: "Successful Submission",
-        content1: "Lifetime verifiable certificate. " 
-      },
-      {
-        icon: <i class=" second fas fa-4x fa-medal"></i>,
-        type: "Tezos",
-        content1:"₹20,000 for best Dapp built on Tezos. ",
-        content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
-      },
-      {
-        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-        type: "Celo",
-        content1: "₹20,000 for best Dapp built on Celo.  " ,
-        content2:"Continuity Support",
-      },
-      {
-        icon: <i class=" third fas fa-4x  fa-trophy"></i>,
-        type: "Filecoin        ",
-        content1: "₹20000 for best use of IPFS and/or Filecoin " 
-      },
+    {
+      icon: <i class="first fas fa-4x fa-trophy"></i>,
+      type: "Successful Submission",
+      content1: "Lifetime verifiable certificate. "
+    },
+    {
+      icon: <i class=" second fas fa-4x fa-medal"></i>,
+      type: "Tezos",
+      content1: "₹20,000 for best Dapp built on Tezos. ",
+      content2:
+        "Continuity grant opportunity up to $5,000 for outstanding projects"
+    },
+    {
+      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: "Celo",
+      content1: "₹20,000 for best Dapp built on Celo.  ",
+      content2: "Continuity Support"
+    },
+    {
+      icon: <i class=" third fas fa-4x  fa-trophy"></i>,
+      type: "Filecoin        ",
+      content1: "₹20000 for best use of IPFS and/or Filecoin "
+    }
   ]
 ];
 
@@ -146,20 +159,21 @@ const PrizeNonCoding = [
     {
       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
       type: "Best UI/UX",
-      content1:" T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
-      content2 : " Lifetime verifiable certificate.",
-      content3 : " Surprises 🤫 "
+      content1:
+        " T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2: " Lifetime verifiable certificate.",
+      content3: " Surprises 🤫 "
     },
-      {
-        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-        type: "Best Ideation",
-        content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
-        content2 : "  Lifetime verifiable certificate.",
-        content3 : " Surprises 🤫 "
-      },
- 
+    {
+      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+      type: "Best Ideation",
+      content1:
+        "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
+      content2: "  Lifetime verifiable certificate.",
+      content3: " Surprises 🤫 "
+    }
   ]
-]
+];
 
 /** Instructions
  * Insert only 3 or less then 3 members per array in `TeamInfo`, you can
@@ -198,32 +212,38 @@ const TeamInfo = [
       linkedin: "https://www.linkedin.com/in/sucheta-mahata",
       img: sucheta
     }
-
   ]
 ];
 const JudgeInfo = [
   [
     //Array 1
     {
-      Name: "Judge 1",
-      role: "Judge, Mentor (Web)",
+      Name: "Niloy Sikdar",
+      role: "Web Dev, Flutter",
       github: "https://github.com/suchetamahata",
       linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      img: Niloy
     },
     {
-      Name: "Judge 2",
-      role: "Judge, Mentor (AI/ML)",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      Name: "Syed Ziauddin",
+      role: "Judging Domain",
+      github: "#",
+      linkedin: "#",
+      img: Syed
     },
     {
-      Name: "Judge 3",
-      role: "Judge, Mentor (UI/UX)",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      Name: "Sagnik Roy",
+      role: "Machine Learning",
+      github: "#",
+      linkedin: "#",
+      img: Sagnik
+    },
+    {
+      Name: "Sayan Nath",
+      role: "Deep Learning",
+      github: "#",
+      linkedin: "#",
+      img: Sayan
     }
   ]
 ];
@@ -235,57 +255,68 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [ {src: Devfolio, link:'https://devfolio.co/', color: 'red'}, {src: Polygon, link:'https://polygon.technology/', color: 'red'}, { src: Celo, link:'https://celo.org/', color: 'seagreen'}, {src:  couvete, link :'https://cuvette.tech/', color: 'seagreen2'},//Array 1
-  {src:  GMS , link: 'https://givemycertificate.com/', color: 'seagreen2'},  {src: Filecoin, link: 'https://twitter.com/Filecoin', color: 'seagreen'} , //Array 2
-    { src: Tezos, link:'https://tezos.com/', color: 'seagreen'} ], //Array 3
+  [
+    {src: Hoichoi, link: "https://www.hoichoi.nl/", color: "yellow"},
+    {src: Devfolio, link: "https://devfolio.co/", color: "red"},
+    {src: Polygon, link: "https://polygon.technology/", color: "red"},
+    {src: Celo, link: "https://celo.org/", color: "seagreen"},
+    {src: couvete, link: "https://cuvette.tech/", color: "seagreen2"}, //Array 1
+    {src: GMS, link: "https://givemycertificate.com/", color: "seagreen2"},
+    {src: Filecoin, link: "https://twitter.com/Filecoin", color: "seagreen"}, //Array 2
+    {src: Tezos, link: "https://tezos.com/", color: "seagreen"}
+  ] //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' }] //Array 4
 ];
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
  */
-const frequentlyAskedQuestions  = [
+const frequentlyAskedQuestions = [
   [
     [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
+          'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.'
+      },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students. 11th and 12th standard students"
+        content:
+          "Dec Hacks is open to all 1st year and 2nd year Undergraduate students. 11th and 12th standard students"
       },
       {
         label: "I am a first time hacker, what should I do?",
-        content: "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
+        content:
+          "No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general."
       },
       {
         label: "How team formation works?",
-        content: "You can form team with 3 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+        content:
+          "You can form team with 3 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
       }
     ],
     [
       {
         label: "How to register myself in the hackathon?",
-        content: "All you need is to join our official Discord, we will guide you through everything there. More details about registration will be shared soon."
+        content:
+          "All you need is to join our official Discord, we will guide you through everything there. More details about registration will be shared soon."
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (google.dsc@snuniv.ac.in) or our official Discord channel we would be happy to help you."
-      }
-      ,
+        content:
+          "Reach us directly at (google.dsc@snuniv.ac.in) or our official Discord channel we would be happy to help you."
+      },
       {
         label: "Can I participate Solo?",
-        content: "Yes we are actively looking for solo participants, we will be glad to have you."
-      }
-      ,
+        content:
+          "Yes we are actively looking for solo participants, we will be glad to have you."
+      },
       {
         label: "Will there be swag?",
         content: "Yes! Participants will recieveing DecHacks swag!."
       }
     ]
-  ],
-
+  ]
 ];
 
 export {

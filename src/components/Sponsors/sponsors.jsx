@@ -10,7 +10,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <a href={props.link} target="__blank">
-      <div className={ `Sponsor ${ props.color }`}>
+      <div className={`Sponsor ${props.color}`}>
         <img src={props.srcx} alt="Dechacks"></img>
       </div>
     </a>
@@ -28,4 +28,7 @@ function SponsorUS() {
   );
 }
 
-export {SponsorsHead, Sponsor, SponsorUS};
+function Hoichoi() {
+  return <h1 className="shead">Title Sponsor</h1>;
+}
+export {SponsorsHead, Sponsor, SponsorUS, Hoichoi};
