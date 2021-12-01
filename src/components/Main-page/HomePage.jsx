@@ -8,7 +8,7 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import { PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo, PrizeNonCoding} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+import {Sponsor, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { FirstPrize } from "../prize tracks/prizes.jsx";
 
 import Birds from "../Birds/birds.jsx";
