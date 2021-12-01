@@ -153,11 +153,13 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection">
-        <h1> <b>TITLE SPONSOR </b></h1>
+        <h1 > <b>TITLE SPONSOR </b></h1> <hr/>
         {sponsorLogos.map(SponsorGroup)}
-          <h1>  <b> EVENT SPONSOR  </b></h1>
+          <h1>  <b> EVENT SPONSOR  </b></h1> <hr/>
+
           {sponsorLogos1.map(SponsorGroup)}
-          <h1>  <b>EVENT CO-SPONSOR  </b></h1>
+          <h1>  <b>EVENT CO-SPONSOR  </b></h1> <hr/>
+
           {sponsorLogos2.map(SponsorGroup)}
           <SponsorUS />
 
