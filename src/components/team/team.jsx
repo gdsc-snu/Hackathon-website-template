@@ -19,14 +19,15 @@ function Member(props) {
     <div className="member">
       <img src={props.img} alt="Dechack"></img>
       <div className="members-link">
-        <h3>{props.name}</h3>
-        <p>{props.role}</p>
-        <a href={`${props.github}`} target='_blank' rel="noreferrer" >
+        <h3>{props.name}</h3><p>{props.role}</p>
+       { props.github ? <a href={`${props.github}`} target='_blank' rel="noreferrer" > 
           <i class="fab fa-2x fa-github"></i>
-        </a>
-        <a href={`${props.linkedin}`} target='_blank' rel="noreferrer">
+        </a> : null}
+        {props.designation ? <h2>{props.designation} </h2>  : null}
+        { props.company  ? <h3>  {props.company} </h3> : null }
+        { props.linkedin ?<a href={`${props.linkedin}`} target='_blank' rel="noreferrer">
           <i class="fab fa-2x fa-linkedin"></i>
-        </a>
+        </a>  : null}
       </div>
     </div>
   );

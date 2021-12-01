@@ -1,14 +1,22 @@
 // // Importing all sponsors logos from Assets
 import GMS from './../components/media/GMS.png'
-import couvete from './../components/media/couvete.png'
+import couvete from './../components/logo-section/courvetteNew.jpeg'
 // import dummyLogo from './../components/logo-section/dummyLogo.png'
 import Devfolio from './../components/logo-section/Devfolio.png'
 import Polygon from './../components/logo-section/Polygon.png'
 import Tezos from './../components/logo-section/Tezos.png'
 import Celo from './../components/logo-section/Celo.svg'
 import Filecoin from './../components/logo-section/Filecoin.png'
+import Hoichoi from './../components/logo-section/Hoichoi.png'
+
 import piush from './../components/logo-section/piushAvatar.png'
 import tamim from './../components/logo-section/tamim.png'
+import NiloySikdar from './../components/team/NiloySikdar.jpg'
+import Syed from './../components/team/Syed.jpeg'
+import Sagnik from './../components/team/Sagnik.jpg'
+import Sayan from './../components/team/Sayan.jpg'
+
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -97,44 +105,44 @@ const Prizeinfo = [
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
       type: "Top 3 Solo or First Place (Team)",
-      content1:"T-shirt from Cuvette Tech and t-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
-      content2:" Lifetime verifiable certificate.",
+      content1:"T-shirt from Cuvette and t-shirts & stickers from Devfolio, Polygon, Tezos, Filecoin & Celo",
+      content2:" Lifetime verifiable certificate",
       content3 :' Surprises 🤫'
     },
     {
       icon: <i class=" second fas fa-4x fa-medal"></i>,
       type: "Second & Third Place (Team)",
-      content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
-      content2 :"Lifetime verifiable certificate.",
+      content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
+      content2 :"Lifetime verifiable certificate",
       content3 :" Surprises 🤫"
     },
     {
       icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
       type: "Best Android App",
-      content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo." ,
+      content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo" ,
       content2:" Chance to send your app to Google (for SNU students only)",
       content3: " Lifetime verifiable certificate. Surprises 🤫 "
     },
       {
-        icon: <i class="first fas fa-4x fa-trophy"></i>,
+        icon: <i class="second fas fa-4x fa-trophy"></i>,
         type: "Successful Submission",
-        content1: "Lifetime verifiable certificate. " 
+        content1: "Lifetime verifiable certificate " 
       },
       {
         icon: <i class=" second fas fa-4x fa-medal"></i>,
         type: "Tezos",
-        content1:"₹20,000 for best Dapp built on Tezos. ",
+        content1:"₹20,000 for best Dapp built on Tezos ",
         content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
       },
       {
         icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
         type: "Celo",
-        content1: "₹20,000 for best Dapp built on Celo.  " ,
+        content1: "₹20,000 for best Dapp built on Celo  " ,
         content2:"Continuity Support",
       },
       {
         icon: <i class=" third fas fa-4x  fa-trophy"></i>,
-        type: "Filecoin        ",
+        type: "Filecoin",
         content1: "₹20000 for best use of IPFS and/or Filecoin " 
       },
   ]
@@ -205,25 +213,36 @@ const JudgeInfo = [
   [
     //Array 1
     {
-      Name: "Judge 1",
-      role: "Judge, Mentor (Web)",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      Name: "Niloy Sikdar",
+      role: "Judge, Mentor (Web Dev, Flutter)",
+      company: "GDSC JGEC",
+      email: "niloysikdar30@gmail.com",
+      designation:"GDSC JGEC Lead, Full Stac k Web and Mobile Application developer",
+      img: NiloySikdar 
     },
     {
-      Name: "Judge 2",
-      role: "Judge, Mentor (AI/ML)",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      Name: "Syed Ziauddin",
+      role: "Mentor",
+      company : "Agora.io",
+      email: "sz2386@cse.jgec.ac.in",
+      designation:"MERN Stack Devloper",
+      img: Syed
     },
     {
-      Name: "Judge 3",
-      role: "Judge, Mentor (UI/UX)",
-      github: "https://github.com/suchetamahata",
-      linkedin: "https://www.linkedin.com/in/sucheta-mahata/",
-      img: zoha
+      Name: "Sagnik Roy",
+      role: "Judge, Mentor (Machine Learning)",
+      company: "Jalpaiguri Government Engineering College",
+      email: "sagnik.jal00@gmail.com",
+      designation:"Data Science Intern @argoid.ai",
+      img: Sagnik
+    },
+    {
+      Name: "Sayan Nath",
+      role: " Judge/Mentor(Deep Learning) ",
+      company: "Kalinga Institute of Industral Technology",
+      email: "sayannath235@gmail.com",
+      designation: "ML Engineer Intern @Blend | GSoC '21 @TensorFlow | Lead @GDSC KIIT | Mentor @Exchange with Google Devs",
+      img: Sayan
     }
   ]
 ];
@@ -235,10 +254,18 @@ const JudgeInfo = [
  */
 
 const sponsorLogos = [
-  [ {src: Devfolio, link:'https://devfolio.co/', color: 'red'}, {src: Polygon, link:'https://polygon.technology/', color: 'red'}, { src: Celo, link:'https://celo.org/', color: 'seagreen'}, {src:  couvete, link :'https://cuvette.tech/', color: 'seagreen2'},//Array 1
-  {src:  GMS , link: 'https://givemycertificate.com/', color: 'seagreen2'},  {src: Filecoin, link: 'https://twitter.com/Filecoin', color: 'seagreen'} , //Array 2
-    { src: Tezos, link:'https://tezos.com/', color: 'seagreen'} ], //Array 3
+  [{ src: Hoichoi , link:'https://hoichoi.tech/', color: 'hoichoi' }]
+];
+
+const sponsorLogos1 = [
+  [ {src: Devfolio, link:'https://devfolio.co/'}, {src: Polygon, link:'https://polygon.technology/'}, { src: Celo, link:'https://celo.org/'}, {src:  couvete, link :'https://cuvette.tech/' ,color: 'hoichoi'}]//Array 1
+   //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' }] //Array 4
+];
+
+const sponsorLogos2 = [
+ [ {src:  GMS , link: 'https://givemycertificate.com/'},  {src: Filecoin, link: 'https://twitter.com/Filecoin'} , //Array 2
+  { src: Tezos, link:'https://tezos.com/'} ]
 ];
 
 /** Instructions
@@ -253,7 +280,7 @@ const frequentlyAskedQuestions  = [
         'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students. 11th and 12th standard students"
+        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students & 11th and 12th standard students "
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -294,6 +321,8 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  sponsorLogos1,
+  sponsorLogos2,
   sponsorLogos,
   TeamInfo,
   frequentlyAskedQuestions,
