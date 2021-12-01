@@ -17,8 +17,8 @@ function FirstPrize(props) {
       <p>
         <ul> 
           <li>{props.content1}</li> 
-          { props.content2  ?          <li>{props.content2}</li> : null }
-          { props.content3  ?          <li>{props.content3}</li> : null }
+          { props.content2  ? <li>{props.content2}</li> : null }
+          { props.content3  ? <li>{props.content3}</li> : null }
        </ul>
       </p>
     </div>
