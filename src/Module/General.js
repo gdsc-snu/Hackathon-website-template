@@ -216,7 +216,7 @@ const JudgeInfo = [
       role: "Judge, Mentor (Web Dev, Flutter)",
       company: "GDSC JGEC",
       email: "niloysikdar30@gmail.com",
-      designation:"GDSC JGEC Lead, Full Stac k Web and Mobile Application developer",
+      designation:" Lead @GDSC JGEC, Web and Mobile App Dev",
       img: NiloySikdar 
     },
     {
@@ -240,7 +240,7 @@ const JudgeInfo = [
       role: " Judge/Mentor(Deep Learning) ",
       company: "Kalinga Institute of Industral Technology",
       email: "sayannath235@gmail.com",
-      designation: "ML Engineer Intern @Blend | GSoC '21 @TensorFlow | Lead @GDSC KIIT | Mentor @Exchange with Google Devs",
+      designation: "ML Engineer Intern @Blend, Lead @GDSC KIIT",
       img: Sayan
     }
   ]

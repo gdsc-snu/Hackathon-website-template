@@ -24,6 +24,11 @@
   margin: 0 7px;
   cursor: pointer;
 }
+
+.members-link h2 {
+  color:rgb(58, 58, 95);
+  
+}
 .joinT {
   text-align: center;
   

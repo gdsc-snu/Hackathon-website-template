@@ -10,19 +10,20 @@
 
 button {
   width: 22rem;
-  height: 6rem;
+  height: 5rem;
   border: none;
-  border-radius: 19px;
+  border-radius: 4px;
   font-size: 2rem;
-  color: rgb(255, 255, 255);
-  background-color: #6A63B7;
+  color: rgb(48, 61, 73);
+  background-color: #d3d1df;
   font-weight: 300;
   position: relative;
+  font-weight: bold;
 }
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #8785fc 0%, #FBC7D4 100%);
+  background: linear-gradient(90deg, #dcdcec 0%, #FBC7D4 100%);
 }
 
 /* .join_disco i {
