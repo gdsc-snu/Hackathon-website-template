@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/dechack/static/css/main.edd13371.chunk.css",
-    "main.js": "/dechack/static/js/main.37821467.chunk.js",
-    "main.js.map": "/dechack/static/js/main.37821467.chunk.js.map",
+    "main.css": "/dechack/static/css/main.6a1108e5.chunk.css",
+    "main.js": "/dechack/static/js/main.5cc2fe19.chunk.js",
+    "main.js.map": "/dechack/static/js/main.5cc2fe19.chunk.js.map",
     "runtime-main.js": "/dechack/static/js/runtime-main.552edbbd.js",
     "runtime-main.js.map": "/dechack/static/js/runtime-main.552edbbd.js.map",
     "static/js/2.581d83a4.chunk.js": "/dechack/static/js/2.581d83a4.chunk.js",
     "static/js/2.581d83a4.chunk.js.map": "/dechack/static/js/2.581d83a4.chunk.js.map",
     "index.html": "/dechack/index.html",
-    "static/css/main.edd13371.chunk.css.map": "/dechack/static/css/main.edd13371.chunk.css.map",
+    "static/css/main.6a1108e5.chunk.css.map": "/dechack/static/css/main.6a1108e5.chunk.css.map",
     "static/js/2.581d83a4.chunk.js.LICENSE.txt": "/dechack/static/js/2.581d83a4.chunk.js.LICENSE.txt",
     "static/media/Celo.e66cc4c3.svg": "/dechack/static/media/Celo.e66cc4c3.svg",
     "static/media/GMS.95e4f97d.png": "/dechack/static/media/GMS.95e4f97d.png",
+    "static/media/Hoichoi.b4cdaf3e.png": "/dechack/static/media/Hoichoi.b4cdaf3e.png",
     "static/media/LogoNew.c8b4b191.jpeg": "/dechack/static/media/LogoNew.c8b4b191.jpeg",
+    "static/media/NiloySikdar.b19630ce.jpg": "/dechack/static/media/NiloySikdar.b19630ce.jpg",
     "static/media/Privacy policy.9854a808.pdf": "/dechack/static/media/Privacy policy.9854a808.pdf",
+    "static/media/Sagnik.d15c772a.jpg": "/dechack/static/media/Sagnik.d15c772a.jpg",
+    "static/media/Sayan.f6b38edd.jpg": "/dechack/static/media/Sayan.f6b38edd.jpg",
+    "static/media/Syed.90875221.jpeg": "/dechack/static/media/Syed.90875221.jpeg",
     "static/media/boy.c14da649.png": "/dechack/static/media/boy.c14da649.png",
-    "static/media/couvete.c669954d.png": "/dechack/static/media/couvete.c669954d.png",
+    "static/media/courvetteNew.d15d44f1.jpeg": "/dechack/static/media/courvetteNew.d15d44f1.jpeg",
     "static/media/icons8-discord.4ccbeee9.svg": "/dechack/static/media/icons8-discord.4ccbeee9.svg",
     "static/media/icons8-facebook.f27e8c82.svg": "/dechack/static/media/icons8-facebook.f27e8c82.svg",
     "static/media/icons8-instagram.89b88306.svg": "/dechack/static/media/icons8-instagram.89b88306.svg",
@@ -27,13 +32,12 @@
     "static/media/piushAvatar.7a08db3b.png": "/dechack/static/media/piushAvatar.7a08db3b.png",
     "static/media/soumyadeep.ccf79db9.svg": "/dechack/static/media/soumyadeep.ccf79db9.svg",
     "static/media/sucheta.9459b4ad.png": "/dechack/static/media/sucheta.9459b4ad.png",
-    "static/media/tamim.09332359.png": "/dechack/static/media/tamim.09332359.png",
-    "static/media/zoha.94ad0355.png": "/dechack/static/media/zoha.94ad0355.png"
+    "static/media/tamim.09332359.png": "/dechack/static/media/tamim.09332359.png"
   },
   "entrypoints": [
     "static/js/runtime-main.552edbbd.js",
     "static/js/2.581d83a4.chunk.js",
-    "static/css/main.edd13371.chunk.css",
-    "static/js/main.37821467.chunk.js"
+    "static/css/main.6a1108e5.chunk.css",
+    "static/js/main.5cc2fe19.chunk.js"
   ]
 }
