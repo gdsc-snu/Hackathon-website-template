@@ -20,6 +20,8 @@ import Media from "../media/media.jsx";
 import {
   TOP_SECTION,
   TeamInfo,
+  sponsorLogos1,
+  sponsorLogos2,
   sponsorLogos,
   frequentlyAskedQuestions,
   //FOOTER,
@@ -74,7 +76,7 @@ function TeamMembers(props) {
     <Row className="members">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={4}>
-          <Member name={s.Name} role={s.role} img={s.img} linkedin={s.linkedin} github={s.github} />
+          <Member name={s.Name} role={s.role} img={s.img} linkedin={s.linkedin} github={s.github} company={s.company} email={s.email} designation={s.designation}/>
         </Col>
       ))}
     </Row>
@@ -151,9 +153,14 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection">
-          <SponsorsHead />
+        <h1> <b>TITLE SPONSOR </b></h1>
+        {sponsorLogos.map(SponsorGroup)}
+          <h1>  <b> EVENT SPONSOR  </b></h1>
+          {sponsorLogos1.map(SponsorGroup)}
+          <h1>  <b>EVENT CO-SPONSOR  </b></h1>
+          {sponsorLogos2.map(SponsorGroup)}
           <SponsorUS />
-          {sponsorLogos.map(SponsorGroup)}
+
         </Row>
         {/* ********Sponsors ending here ***** */}
 
@@ -163,7 +170,7 @@ export default function HomePage(props) {
         <h1>Our Team</h1>
         {/* {FOOTER.JOIN_TEAM.required && <JoinTeam />} */}
         {TeamInfo.map(TeamMembers)}
-        <h1>Our Judges</h1>
+        <h1>Our Judges/Mentors</h1>
         {JudgeInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
