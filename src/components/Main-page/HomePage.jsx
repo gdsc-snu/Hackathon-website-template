@@ -8,7 +8,7 @@ import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import { PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo, PrizeNonCoding} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
-import {Sponsor} from "../Sponsors/sponsors.jsx";
+import {Sponsor, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { FirstPrize } from "../prize tracks/prizes.jsx";
 
 import Birds from "../Birds/birds.jsx";
@@ -20,11 +20,9 @@ import Media from "../media/media.jsx";
 import {
   TOP_SECTION,
   TeamInfo,
-  // sponsorLogos1,
-  // sponsorLogos2,
-  sponsorLogos,
   sponsorLogos1,
   sponsorLogos2,
+  sponsorLogos,
   frequentlyAskedQuestions,
   //FOOTER,
   JudgeInfo,
@@ -32,6 +30,7 @@ import {
 } from "../../Module/General";
 
 // javascript Map for sponsors
+
 function SponsorGroup(props) {
   return (
     <Row>
@@ -46,6 +45,7 @@ function SponsorGroup(props) {
 }
 
 // javascript Map for sponsors end
+
 // Prize group
 
 function PrizeGroup(props) {
@@ -83,6 +83,9 @@ function TeamMembers(props) {
   );
 }
 
+
+
+
 function FrequentlyAsked(props) {
   return (
     <Row className="sf">
@@ -94,6 +97,8 @@ function FrequentlyAsked(props) {
     </Row>
   );
 }
+
+
 
 export default function HomePage(props) {
   return (
@@ -145,26 +150,20 @@ export default function HomePage(props) {
           {PrizeNonCoding.map(PrizeNCoding)} 
         </Row>
 
-
         {/* ********Sponsors here ***** */}
 
+        <Row className="sponsorSection">
+        <b> <h1 >TITLE SPONSOR </h1> <hr/> </b>
+        {sponsorLogos.map(SponsorGroup)}
+          <h1>  <b> EVENT SPONSOR  </b></h1> <hr/>
 
-        <Row className="SponsorSection">
-          <h1 className="titleSpon">TITLE SPONSOR</h1>
-          {sponsorLogos.map(SponsorGroup)}
-        </Row>
-
-        <Row className="SponsorSection">
-          <h1 className="titleSpon">EVENT SPONSOR</h1>
           {sponsorLogos1.map(SponsorGroup)}
-        </Row>
-        
-        <Row className="SponsorSection">
-          <h1 className="titleSpon">EVENT CO-SPONSOR</h1>
-          {sponsorLogos2.map(SponsorGroup)}
-        </Row>
-        
+          <h1>  <b>EVENT CO-SPONSOR  </b></h1> <hr/>
 
+          {sponsorLogos2.map(SponsorGroup)}
+          <SponsorUS />
+
+        </Row>
         {/* ********Sponsors ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />
