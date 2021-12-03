@@ -134,6 +134,7 @@ export default function HomePage(props) {
 
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs">
+          <h1 className="titleSpon" style={{ marginLeft: 200,  width: 1400  }}> FAQ </h1>
         {frequentlyAskedQuestions.map(FrequentlyAsked)}
         {/* ********Frequently asked Questions ending here ***** */}
          </div>  
@@ -153,12 +154,13 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection">
-        <b> <h1 >TITLE SPONSOR </h1> <hr/> </b>
+         <h1 className="titleSpon">TITLE SPONSOR </h1> <hr/> 
         {sponsorLogos.map(SponsorGroup)}
-          <h1>  <b> EVENT SPONSOR  </b></h1> <hr/>
 
+          <h1 className="titleSpon">  EVENT SPONSOR  </h1> <hr/>
           {sponsorLogos1.map(SponsorGroup)}
-          <h1>  <b>EVENT CO-SPONSOR  </b></h1> <hr/>
+
+          <h1 className="titleSpon"> <b>EVENT CO-SPONSOR  </b></h1> <hr/>
 
           {sponsorLogos2.map(SponsorGroup)}
           <SponsorUS />
