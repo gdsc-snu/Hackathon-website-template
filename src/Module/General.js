@@ -1,6 +1,6 @@
 // // Importing all sponsors logos from Assets
 import GMS from './../components/media/GMS.png'
-import couvete from './../components/logo-section/courvetteNew.jpeg'
+import couvete from './../components/logo-section/corvete.svg'
 // import dummyLogo from './../components/logo-section/dummyLogo.png'
 import Devfolio from './../components/logo-section/Devfolio.png'
 import Polygon from './../components/logo-section/Polygon.png'
@@ -272,8 +272,7 @@ const frequentlyAskedQuestions  = [
     [
       {
         label: "What is a hackathon?",
-        content:
-        'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
+        content:'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
         content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students & 11th and 12th standard students "
