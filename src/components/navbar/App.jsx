@@ -68,6 +68,11 @@ export default class NAVBAR extends React.Component {
                 </div>
               </li>
               <li>
+<<<<<<< HEAD
+                <Link to="/sponsors">
+                  <span className="links">Sponsors </span>{" "}
+                </Link>
+=======
                 <div style={{cursor: "pointer"}}>
                   <Link
                     to="judges"
@@ -79,13 +84,12 @@ export default class NAVBAR extends React.Component {
                     <span className="links">Judges </span>{" "}
                   </Link>
                 </div>
+>>>>>>> 9ddb436e953069239fbacc084d3df6a69e5fd6a0
               </li>
               {/*Navigation for info*/}
 
               <li>
-                <Link to="/projects">
-                  <span className="links">More info </span>{" "}
-                </Link>
+                  <a className="links" href="https://dechack.devfolio.co/" target="_blank" rel="noreferrer">More info </a>{" "}
               </li>
             </ul>
           </nav>
@@ -96,7 +100,7 @@ export default class NAVBAR extends React.Component {
             <Route path="/devpost" exact component={Devpost} />
             <Route path="/twitter" exact component={Twitter} />
             <Route path="/instagram" exact component={Instagram} />
-            <Route path="/contact">
+            <Route path="/contact" exact id='sponsor'>
               <HomePage />
             </Route>
             <Route path="/links">
