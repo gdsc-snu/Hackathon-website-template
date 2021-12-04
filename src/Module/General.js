@@ -152,24 +152,28 @@ const Prizeinfo = [
       type: "Polygon",
       content: "₹10,000 for the best hack built on Ethereum",
       content1: "₹15,000 for the best hack built on Ethereum + Polygon",
-      content2 : "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! " 
+      content2 : "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! ",
+      link: "https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c"
     },
   
     {
         icon: <i class=" third fas fa-4x  fa-trophy"></i>,
         type: "Filecoin",
-        content1: "₹20000 for best use of IPFS and/or Filecoin " 
+        content1: "₹20000 for best use of IPFS and/or Filecoin ",
+        link: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"
     },{
       icon: <i class=" first fas fa-4x fa-trophy"></i>,
       type: "Celo",
       content1: "₹20,000 for best Dapp built on Celo  " ,
       content2:"Continuity Support",
+      link: "https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
   },
   {
     icon: <i class=" second fas fa-4x fa-trophy"></i>,
     type: "Tezos",
     content1:"₹20,000 for best Dapp built on Tezos ",
     content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
+    link: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"
   },
   {
     icon: <i class="sixth fas fa-4x fa-skiing-nordic"></i>,

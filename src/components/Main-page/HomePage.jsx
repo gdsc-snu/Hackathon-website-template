@@ -53,13 +53,13 @@ function PrizeGroup(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content={s.content} content1={s.content1} content2={s.content2} content3={s.content3} />
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} content1={s.content1} content2={s.content2} content3={s.content3} link={s.link} />
         </Col>
       ))}
     </Row>
   );
 }
-function PrizeNCoding(props) {
+function PrizeNonCode(props) {
   return (
     <Row>
       {props.map(s => (
@@ -148,7 +148,7 @@ export default function HomePage(props) {
 
         <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
-          {PrizeNonCoding.map(PrizeNCoding)} 
+          {PrizeNonCoding.map(PrizeNonCode)} 
         </Row>
 
         {/* ********Sponsors here ***** */}

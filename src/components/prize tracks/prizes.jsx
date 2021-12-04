@@ -20,6 +20,7 @@ function FirstPrize(props) {
           <li>{props.content1}</li> 
           { props.content2  ? <li>{props.content2}</li> : null }
           { props.content3  ? <li>{props.content3}</li> : null }
+          { props.link  ? <i><a href={props.link} target='_blank' rel="noreferrer"> learn more</a></i> : null }
        </ul>
       </p>
     </div>
