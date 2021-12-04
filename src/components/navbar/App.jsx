@@ -68,11 +68,6 @@ export default class NAVBAR extends React.Component {
                 </div>
               </li>
               <li>
-<<<<<<< HEAD
-                <Link to="/sponsors">
-                  <span className="links">Sponsors </span>{" "}
-                </Link>
-=======
                 <div style={{cursor: "pointer"}}>
                   <Link
                     to="judges"
@@ -84,7 +79,6 @@ export default class NAVBAR extends React.Component {
                     <span className="links">Judges </span>{" "}
                   </Link>
                 </div>
->>>>>>> 9ddb436e953069239fbacc084d3df6a69e5fd6a0
               </li>
               {/*Navigation for info*/}
 
