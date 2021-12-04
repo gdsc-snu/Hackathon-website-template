@@ -293,14 +293,14 @@ const sponsorLogos = [
 ];
 
 const sponsorLogos1 = [
-  [ {src: Devfolio, link:'https://devfolio.co/'}, {src: Polygon, link:'https://polygon.technology/'}, { src: Celo, link:'https://celo.org/'}, {src:  couvete, link :'https://cuvette.tech/' ,color: 'hoichoi'}]//Array 1
+  [ {src: Devfolio, link:'https://devfolio.co/'}, {src: Polygon, link:'https://polygon.technology/'}]//Array 1
    //Array 3
   // [{src:  dummyLogo}, {src:  dummyLogo}, {src:  dummyLogo},{src:  dummyLogo, link:'https://gdsc-snu.github.io/dechack/sponsorship_gdscsnu.pdf' }] //Array 4
 ];
 
 const sponsorLogos2 = [
  [ {src:  GMS , link: 'https://givemycertificate.com/'},  {src: Filecoin, link: 'https://twitter.com/Filecoin'} , //Array 2
-  { src: Tezos, link:'https://tezos.com/'} ]
+  { src: Tezos, link:'https://tezos.com/'}, { src: Celo, link:'https://celo.org/'}, {src:  couvete, link :'https://cuvette.tech/' ,color: 'hoichoi'} ]
 ];
 
 /** Instructions
