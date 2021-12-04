@@ -179,15 +179,7 @@ export default function HomePage(props) {
           <img className="timeline" src={Timeline} alt="timeline"></img>
         </Row>
         {/* ********Sponsors here ***** */}
-<<<<<<< HEAD
-        
-        <Row className="sponsorSection" >
-         <h1 className="titleSpon">TITLE SPONSOR </h1> 
-        {sponsorLogos.map(SponsorGroup)}
-
-          <h1 className="titleSpon">  EVENT SPONSOR  </h1>
-          {sponsorLogos1.map(SponsorGroup)}
-=======
+       
         <div id="sponsors">
           <Row className="sponsorSection">
             <h1 className="titleSpon">TITLE SPONSOR </h1>
@@ -195,23 +187,16 @@ export default function HomePage(props) {
 
             <h1 className="titleSpon"> EVENT SPONSOR </h1>
             {sponsorLogos1.map(SponsorGroup)}
->>>>>>> 9ddb436e953069239fbacc084d3df6a69e5fd6a0
 
             <h1 className="titleSpon">
               {" "}
               <b>EVENT CO-SPONSOR </b>
             </h1>
 
-<<<<<<< HEAD
-          {sponsorLogos2.map(SponsorGroup)}
-          <SponsorUS />
-        </Row>
-=======
             {sponsorLogos2.map(SponsorGroup)}
             <SponsorUS />
           </Row>
         </div>
->>>>>>> 9ddb436e953069239fbacc084d3df6a69e5fd6a0
         {/* ********Sponsors ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />
