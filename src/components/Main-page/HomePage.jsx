@@ -53,7 +53,7 @@ function PrizeGroup(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content1={s.content1} content2={s.content2} content3={s.content3} />
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} content1={s.content1} content2={s.content2} content3={s.content3} />
         </Col>
       ))}
     </Row>
@@ -64,7 +64,7 @@ function PrizeNCoding(props) {
     <Row>
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
-          <FirstPrize icon={s.icon} type={s.type} content1={s.content1} content2={s.content2} content3={s.content3} />
+          <FirstPrize icon={s.icon} type={s.type} content={s.content} content1={s.content1} content2={s.content2} content3={s.content3} />
         </Col>
       ))}
     </Row>
@@ -154,13 +154,13 @@ export default function HomePage(props) {
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection">
-         <h1 className="titleSpon">TITLE SPONSOR </h1> <hr/> 
+         <h1 className="titleSpon">TITLE SPONSOR </h1> 
         {sponsorLogos.map(SponsorGroup)}
 
-          <h1 className="titleSpon">  EVENT SPONSOR  </h1> <hr/>
+          <h1 className="titleSpon">  EVENT SPONSOR  </h1>
           {sponsorLogos1.map(SponsorGroup)}
 
-          <h1 className="titleSpon"> <b>EVENT CO-SPONSOR  </b></h1> <hr/>
+          <h1 className="titleSpon"> <b>EVENT CO-SPONSOR  </b></h1> 
 
           {sponsorLogos2.map(SponsorGroup)}
           <SponsorUS />
