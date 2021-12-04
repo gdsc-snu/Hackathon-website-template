@@ -40,14 +40,12 @@ export default class NAVBAR extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to="/contact">
+                <Link to="/sponsors">
                   <span className="links">Sponsors </span>{" "}
                 </Link>
               </li>
               <li>
-                <Link to="/projects">
-                  <span className="links">More info </span>{" "}
-                </Link>
+                  <a className="links" href="https://dechack.devfolio.co/" target="_blank" rel="noreferrer">More info </a>{" "}
               </li>
             </ul>
           </nav>
@@ -58,7 +56,7 @@ export default class NAVBAR extends React.Component {
             <Route path="/devpost" exact component={Devpost} />
             <Route path="/twitter" exact component={Twitter} />
             <Route path="/instagram" exact component={Instagram} />
-            <Route path="/contact">
+            <Route path="/contact" exact id='sponsor'>
               <HomePage />
             </Route>
             <Route path="/links">

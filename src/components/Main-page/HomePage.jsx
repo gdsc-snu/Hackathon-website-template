@@ -11,6 +11,7 @@ import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorUS} from "../Sponsors/sponsors.jsx";
 import { FirstPrize } from "../prize tracks/prizes.jsx";
 
+import Timeline from "../../Module/Assets/eventTimeline.png"
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import {Member} from "../team/team.jsx";
@@ -150,10 +151,12 @@ export default function HomePage(props) {
           <PrizeHeading type="Non-coding prizes" />
           {PrizeNonCoding.map(PrizeNonCode)} 
         </Row>
-
+        <Row >
+          <img className="timeline" src={Timeline} alt="timeline"></img>
+        </Row>
         {/* ********Sponsors here ***** */}
-
-        <Row className="sponsorSection">
+        
+        <Row className="sponsorSection" >
          <h1 className="titleSpon">TITLE SPONSOR </h1> 
         {sponsorLogos.map(SponsorGroup)}
 
@@ -164,7 +167,6 @@ export default function HomePage(props) {
 
           {sponsorLogos2.map(SponsorGroup)}
           <SponsorUS />
-
         </Row>
         {/* ********Sponsors ending here ***** */}
 

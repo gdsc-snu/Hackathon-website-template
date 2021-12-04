@@ -165,7 +165,7 @@ const Prizeinfo = [
       icon: <i class=" first fas fa-4x fa-trophy"></i>,
       type: "Celo",
       content1: "₹20,000 for best Dapp built on Celo  " ,
-      content2:"Continuity Support",
+      content2:"Continuity Support opportunity for the project",
       link: "https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0"
   },
   {
@@ -174,11 +174,6 @@ const Prizeinfo = [
     content1:"₹20,000 for best Dapp built on Tezos ",
     content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
     link: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203"
-  },
-  {
-    icon: <i class="sixth fas fa-4x fa-skiing-nordic"></i>,
-    type: "Successful Submission",
-    content1: "Lifetime verifiable certificate " 
   }
   ]
 ];
@@ -202,6 +197,11 @@ const PrizeNonCoding = [
         content2 : "  Lifetime verifiable certificate.",
         content3 : " Surprises 🤫 "
       },
+      {
+        icon: <i class="sixth fas fa-4x fa-skiing-nordic"></i>,
+        type: "Successful Submission",
+        content1: "Lifetime verifiable certificate " 
+      }
   ]
 ]
 
@@ -314,7 +314,7 @@ const frequentlyAskedQuestions  = [
         content:'A hackathon is a event where "hackers" collaborate on creating a functioning software and hardware by the end of the event.' },
       {
         label: "Who can attend?",
-        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students & 11th and 12th standard students "
+        content: "Dec Hacks is open to all 1st year and 2nd year Undergraduate students & 11th and 12th standard students. All SNUites can participate. "
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -323,13 +323,13 @@ const frequentlyAskedQuestions  = [
       {
         label: "How team formation works?",
         content: "You can form team with 3 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+      },
+      {
+        label: "How to register myself in the hackathon?",
+        content: "There is a 'Apply with Devfolio' button at the very beginning of the screen."
       }
     ],
     [
-      {
-        label: "How to register myself in the hackathon?",
-        content: "All you need is to join our official Discord, we will guide you through everything there. More details about registration will be shared soon."
-      },
       {
         label: "I have more questions?",
         content: "Reach us directly at (google.dsc@snuniv.ac.in) or our official Discord channel we would be happy to help you."
@@ -338,11 +338,18 @@ const frequentlyAskedQuestions  = [
       {
         label: "Can I participate Solo?",
         content: "Yes we are actively looking for solo participants, we will be glad to have you."
-      }
-      ,
+      },
+      {
+        label: "Can we participate as a Team?",
+        content:"Yes. A team can contain maximum of three people."
+      },
       {
         label: "Will there be swag?",
         content: "Yes! Participants will recieveing DecHacks swag!."
+      },
+      {
+        label: "Will solo and team be judged separately?",
+        content:"Yes. They will be treated differently to maintain the equality and marking weight will be adjusted accordingly."
       }
     ]
   ],
