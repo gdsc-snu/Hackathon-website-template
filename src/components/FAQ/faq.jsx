@@ -32,7 +32,7 @@ class Panel extends React.Component {
 
     return (
       // eslint-disable-next-line
-      <div className="panel" role="tabpanel" aria-expanded={isActive} >
+      <div className="panel" role="tabpanel" aria-expanded={isActive}>
         <button className="panel__label" role="tab" onClick={activateTab}>
           {label}
         </button>
@@ -53,7 +53,7 @@ class Accordion extends React.Component {
     super(props);
 
     this.state = {
-      activeTab: 1
+      activeTab: ""
     };
 
     this.activateTab = this.activateTab.bind(this);
