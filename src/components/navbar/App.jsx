@@ -5,7 +5,7 @@ import "./styles.scss";
 import HomePage from "../Main-page/HomePage";
 // import logo from "./logoo.png"
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import {Link, animateScroll as scroll} from "react-scroll";
+import {Link} from "react-scroll";
 
 import Discord from "../Routes/Discord";
 import Twitter from "../Routes/Twitter";
