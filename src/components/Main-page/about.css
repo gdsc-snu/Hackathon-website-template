@@ -88,7 +88,7 @@ top: 10px;
 
 
 
-@media (max-width: 570px) {
+@media (min-width: 570px) {
   .mediaInfo {
     margin-top: 0;
   }
@@ -117,5 +117,11 @@ top: 10px;
   .logoSection {
     text-align: center;
     padding: 20vh 0vh 0 0vh;
+  }
+}
+
+@media (min-width: 375px) {
+  .titleSpon{
+    font-size: 3vh;
   }
 }
