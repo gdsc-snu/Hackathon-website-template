@@ -102,32 +102,59 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i class="first fas fa-4x fa-medal"></i>,
-      type: "Top 3 Solo or First Place (Team)",
+      icon: <i class="sixth fas fa-4x fa-medal"></i>,
+      type: "First Place (Team)",
+      content:"Raspberry Pi 4B Single Board Computer",
       content1:"T-shirt from Cuvette and t-shirts & stickers from Devfolio, Polygon, Tezos, Filecoin & Celo",
       content2:" Lifetime verifiable certificate",
       content3 :' Surprises 🤫'
-    },
-    {
+    },{
+      icon: <i class="sixth  fas fa-4x fa-medal"></i>,
+      type: "First Place (Solo)",
+      content:"Raspberry Pi Zero W Single Board Computer",
+      content1:"T-shirt from Cuvette and t-shirts & stickers from Devfolio, Polygon, Tezos, Filecoin & Celo",
+      content2:" Lifetime verifiable certificate",
+      content3 :' Surprises 🤫'
+    },{
       icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "Second & Third Place (Team)",
+      type: "Second Place (Team)",
+      content:"Raspberry Pi Zero W Single Board Computer" ,
       content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
       content2 :"Lifetime verifiable certificate",
       content3 :" Surprises 🤫"
     },
     {
-      icon: <i class=" third fas fa-4x  fa-medal"></i>,
+      icon: <i class=" first fas fa-4x fa-medal"></i>,
+      type: "Third Place (Team)",
+      content:"ESP32 Module",
+      content1:"T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo",
+      content2 :"Lifetime verifiable certificate",
+      content3 :" Surprises 🤫"
+    },
+    {
+      icon: <i class=" second fas fa-4x fa-medal"></i>,
+      type: "Second & Third Place (Solo)",
+      content: "ESP32 Module",
+      content1:"T-shirts and stickers from  Cuvette Tech, Devfolio, Polygon, Tezos, Filecoin and Celo",
+      content2 :"Lifetime verifiable certificate",
+      content3 :" Surprises 🤫"
+    },
+    {
+      icon: <i class=" sixth fas fa-4x  fa-medal"></i>,
       type: "Best Android App",
+      content:"Wireless Earphones",
       content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo" ,
       content2:" Chance to send your app to Google (for SNU students only)",
       content3: " Lifetime verifiable certificate. Surprises 🤫 "
     },
     {
-        icon: <i class=" second fas fa-4x fa-trophy"></i>,
-        type: "Tezos",
-        content1:"₹20,000 for best Dapp built on Tezos ",
-        content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
+      icon: <i class=" third fas fa-4x  fa-trophy"></i>,
+      type: "Polygon",
+      content: "₹10,000 for the best hack built on Ethereum",
+      content1: "₹15,000 for the best hack built on Ethereum + Polygon",
+      content2 : "Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners! " 
     },
+  
     {
         icon: <i class=" third fas fa-4x  fa-trophy"></i>,
         type: "Filecoin",
@@ -137,6 +164,12 @@ const Prizeinfo = [
       type: "Celo",
       content1: "₹20,000 for best Dapp built on Celo  " ,
       content2:"Continuity Support",
+  },
+  {
+    icon: <i class=" second fas fa-4x fa-trophy"></i>,
+    type: "Tezos",
+    content1:"₹20,000 for best Dapp built on Tezos ",
+    content2:"Continuity grant opportunity up to $5,000 for outstanding projects",
   },
   {
     icon: <i class="sixth fas fa-4x fa-skiing-nordic"></i>,
@@ -150,15 +183,17 @@ const PrizeNonCoding = [
   [
     //Array 2
     {
-      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+      icon: <i class="fas fa-user-friends seventh fa-3x"></i>,
       type: "Best UI/UX",
+      content: "Wireless Earphones",
       content1:" T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
       content2 : " Lifetime verifiable certificate.",
       content3 : " Surprises 🤫 "
     },
       {
-        icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+        icon: <i class=" second fas fa-4x fa-book-open"></i>,
         type: "Best Ideation",
+        content: "ESP32 Module" ,
         content1: "T-shirts and stickers from Devfolio, Polygon, Tezos, Filecoin and Celo.",
         content2 : "  Lifetime verifiable certificate.",
         content3 : " Surprises 🤫 "

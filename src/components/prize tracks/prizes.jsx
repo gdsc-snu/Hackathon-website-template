@@ -16,6 +16,7 @@ function FirstPrize(props) {
       <h2>{props.type}</h2>
       <p>
         <ul> 
+          { props.content  ? <li> {props.content} </li> : null }
           <li>{props.content1}</li> 
           { props.content2  ? <li>{props.content2}</li> : null }
           { props.content3  ? <li>{props.content3}</li> : null }
